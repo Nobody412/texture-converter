@@ -298,6 +298,9 @@ header h1 {
   padding: 12px 14px;
   border-width: 2px;
   letter-spacing: 0.3px;
+  width: 70%;
+  resize: vertical;
+  font-family: inherit;
 }
 
 .btn-small {
