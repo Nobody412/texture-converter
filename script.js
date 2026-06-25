@@ -405,6 +405,10 @@
   }
 
   function getZipFile(zip, path) {
+    var keys = Object.keys(zip.files);
+    for (var i = 0; i < keys.length; i++) {
+      if (keys[i] === path) return zip.files[keys[i]];
+    }
     var found = null;
     zip.forEach(function(relPath, entry) {
       if (relPath === path) found = entry;
@@ -417,7 +421,11 @@
     try {
       const file = getZipFile(zip, path);
       if (!file) {
+        var keys = Object.keys(zip.files);
+        var ciMatch = keys.find(function(k) { return k.toLowerCase() === path.toLowerCase(); });
+        var startsWith = keys.filter(function(k) { return k.indexOf(path.replace('.png','')) >= 0; });
         console.warn('Preview: file not found in ' + zipName + ': ' + path);
+        console.warn('  keys count:', keys.length, 'ciMatch:', ciMatch, 'startsWith:', startsWith.slice(0,3).join(','));
         return '';
       }
       if (file.dir) {
@@ -702,8 +710,13 @@
       sbTextureZip = await JSZip.loadAsync(sbZipData);
       vanillaTextureZip = await JSZip.loadAsync(vanZipData);
       modelsMap = modelsData;
-      console.log('sbTextureZip loaded, files count:', Object.keys(sbTextureZip.files).length);
-      console.log('vanillaTextureZip loaded, files count:', Object.keys(vanillaTextureZip.files).length);
+      var sbKeys = Object.keys(sbTextureZip.files);
+      var vanKeys = Object.keys(vanillaTextureZip.files);
+      console.log('sbTextureZip loaded, files count:', sbKeys.length);
+      console.log('vanillaTextureZip loaded, files count:', vanKeys.length);
+      console.log('sb first 5 keys:', sbKeys.slice(0,5).join(' | '));
+      console.log('sb last 5 keys:', sbKeys.slice(-5).join(' | '));
+      console.log('van first 5 keys:', vanKeys.slice(0,5).join(' | '));
 
       const grouped = {};
       itemsResp.forEach(item => {
