@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skyblock Texture Pack Converter</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Skyblock Texture Pack Converter</h1>
+    <p class="subtitle">All processing happens in your browser. Nothing is uploaded to any server.</p>
+    <div id="stats-bar"></div>
+  </header>
+
+  <div class="controls-bar">
+    <div class="search-section">
+      <input type="text" id="search-input" placeholder="Search items..." autocomplete="off">
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+      </select>
+      <select id="vanilla-filter">
+        <option value="all">All Vanilla Types</option>
+      </select>
+    </div>
+    <div class="action-section">
+      <button id="select-all-btn" class="btn btn-secondary">Check All</button>
+      <button id="deselect-all-btn" class="btn btn-secondary">Uncheck All</button>
+      <span id="visible-count" class="count-badge">0 items</span>
+    </div>
+  </div>
+
+  <div class="main-layout">
+    <div class="sidebar">
+      <div class="sidebar-section">
+        <h3>Custom Pack</h3>
+        <p class="help-text">Upload a resource pack to use its textures instead of vanilla Minecraft textures.</p>
+        <div class="upload-pack-area" id="upload-pack-area">
+          <input type="file" id="pack-file-input" accept=".zip" hidden>
+          <button id="upload-pack-btn" class="btn btn-primary">Upload Resource Pack</button>
+          <div id="pack-status" class="pack-status"></div>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Pack Settings</h3>
+        <label class="setting-row setting-row-wide">
+          <span>Pack Name:</span>
+          <input type="text" id="pack-name" placeholder="My Texture Pack" class="text-input">
+        </label>
+        <label class="setting-row">
+          <span>Pack Format:</span>
+          <input type="number" id="pack-format" value="87" min="0" max="999">
+        </label>
+        <label class="setting-row">
+          <span>Min Format:</span>
+          <input type="number" id="min-format" value="69" min="0" max="999">
+        </label>
+        <label class="setting-row">
+          <span>Max Format:</span>
+          <input type="number" id="max-format" value="999" min="0" max="999">
+        </label>
+        <div class="pack-icon-upload">
+          <span class="setting-label">Pack Icon:</span>
+          <div class="icon-upload-row">
+            <input type="file" id="pack-icon-input" accept=".png" hidden>
+            <button id="upload-icon-btn" class="btn btn-secondary btn-small">Upload Icon</button>
+            <span id="icon-status" class="icon-status"></span>
+          </div>
+          <img id="pack-icon-preview" class="pack-icon-preview" hidden>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Summary</h3>
+        <div id="summary">
+          <div class="summary-row"><span>Total Items:</span><span id="sum-total">0</span></div>
+          <div class="summary-row"><span>Keep Custom:</span><span id="sum-keep">0</span></div>
+          <div class="summary-row"><span>Convert:</span><span id="sum-convert">0</span></div>
+          <div class="summary-row"><span>Custom Uploads:</span><span id="sum-uploads">0</span></div>
+        </div>
+      </div>
+
+      <button id="generate-btn" class="btn btn-primary btn-large">Generate Pack</button>
+      <div id="progress-area" class="progress-area" hidden>
+        <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+        <p id="progress-text">Processing...</p>
+      </div>
+      <div id="download-area" class="download-area" hidden>
+        <a id="download-link" class="btn btn-success" download>Download Pack</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div id="item-list" class="item-list"></div>
+      <div id="loading" class="loading">Loading items...</div>
+    </div>
+  </div>
+</div>
+
+<div id="preview-tooltip" class="preview-tooltip">
+  <div class="tooltip-content">
+    <div class="tooltip-images">
+      <div class="tooltip-preview">
+        <span class="preview-label">SB Texture</span>
+        <img id="preview-sb" src="" alt="SB Texture">
+      </div>
+      <div class="tooltip-preview">
+        <span class="preview-label" id="preview-target-label">Vanilla Texture</span>
+        <img id="preview-target" src="" alt="Target Texture">
+      </div>
+    </div>
+    <div class="tooltip-info">
+      <span id="preview-name"></span>
+      <span id="preview-vanilla" class="vanilla-tag"></span>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

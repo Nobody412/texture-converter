@@ -1,0 +1,5917 @@
+[
+  {
+    "name": "abiphone_basic",
+    "vanilla": "paper",
+    "texture": "abiphones/abiphone_basic"
+  },
+  {
+    "name": "abiphone_flip_dragon",
+    "vanilla": "paper",
+    "texture": "abiphones/flip/abiphone_flip_dragon"
+  },
+  {
+    "name": "abiphone_flip_nucleus",
+    "vanilla": "paper",
+    "texture": "abiphones/flip/abiphone_flip_nucleus"
+  },
+  {
+    "name": "abiphone_flip_volcano",
+    "vanilla": "paper",
+    "texture": "abiphones/flip/abiphone_flip_volcano"
+  },
+  {
+    "name": "abiphone_flip_plus_clockwork",
+    "vanilla": "paper",
+    "texture": "abiphones/flip_plus/abiphone_flip_plus_clockwork"
+  },
+  {
+    "name": "abiphone_flip_plus_flower",
+    "vanilla": "paper",
+    "texture": "abiphones/flip_plus/abiphone_flip_plus_flower"
+  },
+  {
+    "name": "abiphone_flip_plus_lunar",
+    "vanilla": "paper",
+    "texture": "abiphones/flip_plus/abiphone_flip_plus_lunar"
+  },
+  {
+    "name": "abiphone_x_blue",
+    "vanilla": "paper",
+    "texture": "abiphones/x/abiphone_x_blue"
+  },
+  {
+    "name": "abiphone_x_red",
+    "vanilla": "paper",
+    "texture": "abiphones/x/abiphone_x_red"
+  },
+  {
+    "name": "abiphone_xi_green",
+    "vanilla": "paper",
+    "texture": "abiphones/xi/abiphone_xi_green"
+  },
+  {
+    "name": "abiphone_xi_yellow",
+    "vanilla": "paper",
+    "texture": "abiphones/xi/abiphone_xi_yellow"
+  },
+  {
+    "name": "abiphone_xii_amber",
+    "vanilla": "paper",
+    "texture": "abiphones/xii/abiphone_xii_amber"
+  },
+  {
+    "name": "abiphone_xii_amethyst",
+    "vanilla": "paper",
+    "texture": "abiphones/xii/abiphone_xii_amethyst"
+  },
+  {
+    "name": "abiphone_xiii_jade",
+    "vanilla": "paper",
+    "texture": "abiphones/xiii/abiphone_xiii_jade"
+  },
+  {
+    "name": "abiphone_xiii_sapphire",
+    "vanilla": "paper",
+    "texture": "abiphones/xiii/abiphone_xiii_sapphire"
+  },
+  {
+    "name": "abiphone_xiv_black",
+    "vanilla": "paper",
+    "texture": "abiphones/xiv/abiphone_xiv_black"
+  },
+  {
+    "name": "abiphone_xiv_orange",
+    "vanilla": "paper",
+    "texture": "abiphones/xiv/abiphone_xiv_orange"
+  },
+  {
+    "name": "abiphone_xiv_purple",
+    "vanilla": "paper",
+    "texture": "abiphones/xiv/abiphone_xiv_purple"
+  },
+  {
+    "name": "abingophone",
+    "vanilla": "paper",
+    "texture": "bingo/abingophone"
+  },
+  {
+    "name": "bingbow",
+    "vanilla": "bow",
+    "texture": "bingo/bingbow"
+  },
+  {
+    "name": "bingbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "bingo/bingbow_pulling_0"
+  },
+  {
+    "name": "bingbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "bingo/bingbow_pulling_1"
+  },
+  {
+    "name": "bingbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "bingo/bingbow_pulling_2"
+  },
+  {
+    "name": "binghoe",
+    "vanilla": "golden_hoe",
+    "texture": "bingo/binghoe"
+  },
+  {
+    "name": "bingolibur",
+    "vanilla": "golden_sword",
+    "texture": "bingo/bingolibur"
+  },
+  {
+    "name": "bingonimbus_2000",
+    "vanilla": "golden_pickaxe",
+    "texture": "bingo/bingonimbus_2000"
+  },
+  {
+    "name": "bingo_blaster",
+    "vanilla": "stick",
+    "texture": "bingo/bingo_blaster"
+  },
+  {
+    "name": "bingo_lava_rod",
+    "vanilla": "fishing_rod",
+    "texture": "bingo/bingo_lava_rod"
+  },
+  {
+    "name": "bingo_lava_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "bingo/bingo_lava_rod_cast"
+  },
+  {
+    "name": "bingo_rod",
+    "vanilla": "fishing_rod",
+    "texture": "bingo/bingo_rod"
+  },
+  {
+    "name": "bingo_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "bingo/bingo_rod_cast"
+  },
+  {
+    "name": "broken_axe",
+    "vanilla": "iron_axe",
+    "texture": "broken/broken_axe"
+  },
+  {
+    "name": "broken_bow",
+    "vanilla": "bow",
+    "texture": "broken/broken_bow"
+  },
+  {
+    "name": "broken_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "broken/broken_bow_pulling_0"
+  },
+  {
+    "name": "broken_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "broken/broken_bow_pulling_1"
+  },
+  {
+    "name": "broken_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "broken/broken_bow_pulling_2"
+  },
+  {
+    "name": "broken_hoe",
+    "vanilla": "iron_hoe",
+    "texture": "broken/broken_hoe"
+  },
+  {
+    "name": "broken_pickaxe",
+    "vanilla": "iron_pickaxe",
+    "texture": "broken/broken_pickaxe"
+  },
+  {
+    "name": "broken_shovel",
+    "vanilla": "iron_shovel",
+    "texture": "broken/broken_shovel"
+  },
+  {
+    "name": "broken_sword",
+    "vanilla": "iron_sword",
+    "texture": "broken/broken_sword"
+  },
+  {
+    "name": "broken_wand",
+    "vanilla": "stick",
+    "texture": "broken/broken_wand"
+  },
+  {
+    "name": "fine_amber_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amber/fine_amber_gem"
+  },
+  {
+    "name": "flawed_amber_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amber/flawed_amber_gem"
+  },
+  {
+    "name": "flawless_amber_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amber/flawless_amber_gem"
+  },
+  {
+    "name": "perfect_amber_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amber/perfect_amber_gem"
+  },
+  {
+    "name": "rough_amber_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amber/rough_amber_gem"
+  },
+  {
+    "name": "fine_amethyst_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amethyst/fine_amethyst_gem"
+  },
+  {
+    "name": "flawed_amethyst_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amethyst/flawed_amethyst_gem"
+  },
+  {
+    "name": "flawless_amethyst_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amethyst/flawless_amethyst_gem"
+  },
+  {
+    "name": "perfect_amethyst_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amethyst/perfect_amethyst_gem"
+  },
+  {
+    "name": "rough_amethyst_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/amethyst/rough_amethyst_gem"
+  },
+  {
+    "name": "fine_aquamarine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/aquamarine/fine_aquamarine_gem"
+  },
+  {
+    "name": "flawed_aquamarine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/aquamarine/flawed_aquamarine_gem"
+  },
+  {
+    "name": "flawless_aquamarine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/aquamarine/flawless_aquamarine_gem"
+  },
+  {
+    "name": "perfect_aquamarine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/aquamarine/perfect_aquamarine_gem"
+  },
+  {
+    "name": "rough_aquamarine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/aquamarine/rough_aquamarine_gem"
+  },
+  {
+    "name": "fine_citrine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/citrine/fine_citrine_gem"
+  },
+  {
+    "name": "flawed_citrine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/citrine/flawed_citrine_gem"
+  },
+  {
+    "name": "flawless_citrine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/citrine/flawless_citrine_gem"
+  },
+  {
+    "name": "perfect_citrine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/citrine/perfect_citrine_gem"
+  },
+  {
+    "name": "rough_citrine_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/citrine/rough_citrine_gem"
+  },
+  {
+    "name": "fine_jade_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jade/fine_jade_gem"
+  },
+  {
+    "name": "flawed_jade_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jade/flawed_jade_gem"
+  },
+  {
+    "name": "flawless_jade_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jade/flawless_jade_gem"
+  },
+  {
+    "name": "perfect_jade_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jade/perfect_jade_gem"
+  },
+  {
+    "name": "rough_jade_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jade/rough_jade_gem"
+  },
+  {
+    "name": "fine_jasper_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jasper/fine_jasper_gem"
+  },
+  {
+    "name": "flawed_jasper_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jasper/flawed_jasper_gem"
+  },
+  {
+    "name": "flawless_jasper_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jasper/flawless_jasper_gem"
+  },
+  {
+    "name": "perfect_jasper_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jasper/perfect_jasper_gem"
+  },
+  {
+    "name": "rough_jasper_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/jasper/rough_jasper_gem"
+  },
+  {
+    "name": "fine_onyx_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/onyx/fine_onyx_gem"
+  },
+  {
+    "name": "flawed_onyx_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/onyx/flawed_onyx_gem"
+  },
+  {
+    "name": "flawless_onyx_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/onyx/flawless_onyx_gem"
+  },
+  {
+    "name": "perfect_onyx_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/onyx/perfect_onyx_gem"
+  },
+  {
+    "name": "rough_onyx_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/onyx/rough_onyx_gem"
+  },
+  {
+    "name": "fine_opal_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/opal/fine_opal_gem"
+  },
+  {
+    "name": "fine_opal_gem",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/gemstones/fine_opal_gem"
+  },
+  {
+    "name": "flawed_opal_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/opal/flawed_opal_gem"
+  },
+  {
+    "name": "flawed_opal_gem",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/gemstones/flawed_opal_gem"
+  },
+  {
+    "name": "flawless_opal_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/opal/flawless_opal_gem"
+  },
+  {
+    "name": "flawless_opal_gem",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/gemstones/flawless_opal_gem"
+  },
+  {
+    "name": "perfect_opal_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/opal/perfect_opal_gem"
+  },
+  {
+    "name": "perfect_opal_gem",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/gemstones/perfect_opal_gem"
+  },
+  {
+    "name": "rough_opal_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/opal/rough_opal_gem"
+  },
+  {
+    "name": "rough_opal_gem",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/gemstones/rough_opal_gem"
+  },
+  {
+    "name": "fine_peridot_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/peridot/fine_peridot_gem"
+  },
+  {
+    "name": "flawed_peridot_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/peridot/flawed_peridot_gem"
+  },
+  {
+    "name": "flawless_peridot_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/peridot/flawless_peridot_gem"
+  },
+  {
+    "name": "perfect_peridot_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/peridot/perfect_peridot_gem"
+  },
+  {
+    "name": "rough_peridot_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/peridot/rough_peridot_gem"
+  },
+  {
+    "name": "fine_ruby_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/ruby/fine_ruby_gem"
+  },
+  {
+    "name": "flawed_ruby_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/ruby/flawed_ruby_gem"
+  },
+  {
+    "name": "flawless_ruby_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/ruby/flawless_ruby_gem"
+  },
+  {
+    "name": "perfect_ruby_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/ruby/perfect_ruby_gem"
+  },
+  {
+    "name": "rough_ruby_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/ruby/rough_ruby_gem"
+  },
+  {
+    "name": "fine_sapphire_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/sapphire/fine_sapphire_gem"
+  },
+  {
+    "name": "flawed_sapphire_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/sapphire/flawed_sapphire_gem"
+  },
+  {
+    "name": "flawless_sapphire_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/sapphire/flawless_sapphire_gem"
+  },
+  {
+    "name": "perfect_sapphire_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/sapphire/perfect_sapphire_gem"
+  },
+  {
+    "name": "rough_sapphire_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/sapphire/rough_sapphire_gem"
+  },
+  {
+    "name": "fine_topaz_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/topaz/fine_topaz_gem"
+  },
+  {
+    "name": "flawed_topaz_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/topaz/flawed_topaz_gem"
+  },
+  {
+    "name": "flawless_topaz_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/topaz/flawless_topaz_gem"
+  },
+  {
+    "name": "perfect_topaz_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/topaz/perfect_topaz_gem"
+  },
+  {
+    "name": "rough_topaz_gem",
+    "vanilla": "paper",
+    "texture": "collections/gemstone/topaz/rough_topaz_gem"
+  },
+  {
+    "name": "condensed_lily_pad",
+    "vanilla": "paper",
+    "texture": "collections/lily_pad/condensed_lily_pad"
+  },
+  {
+    "name": "diamond_lotus",
+    "vanilla": "paper",
+    "texture": "collections/lotus/diamond_lotus"
+  },
+  {
+    "name": "gold_lotus",
+    "vanilla": "paper",
+    "texture": "collections/lotus/gold_lotus"
+  },
+  {
+    "name": "lotus",
+    "vanilla": "paper",
+    "texture": "collections/lotus/lotus"
+  },
+  {
+    "name": "silver_lotus",
+    "vanilla": "paper",
+    "texture": "collections/lotus/silver_lotus"
+  },
+  {
+    "name": "arachnes_calling",
+    "vanilla": "paper",
+    "texture": "combat_1/arachnes_calling"
+  },
+  {
+    "name": "arachnes_fang",
+    "vanilla": "paper",
+    "texture": "combat_1/arachnes_fang"
+  },
+  {
+    "name": "arachne_fragment",
+    "vanilla": "paper",
+    "texture": "combat_1/arachne_fragment"
+  },
+  {
+    "name": "arack",
+    "vanilla": "iron_sword",
+    "texture": "combat_1/arack"
+  },
+  {
+    "name": "poison_sample",
+    "vanilla": "paper",
+    "texture": "combat_1/poison_sample"
+  },
+  {
+    "name": "tarantula_catalyst",
+    "vanilla": "paper",
+    "texture": "combat_1/tarantula_catalyst"
+  },
+  {
+    "name": "builders_wand",
+    "vanilla": "blaze_rod",
+    "texture": "community_center/bits_shop/builders_wand"
+  },
+  {
+    "name": "kismet_feather",
+    "vanilla": "feather",
+    "texture": "community_center/bits_shop/kismet_feather"
+  },
+  {
+    "name": "glossy_gemstone",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/cole/glossy_gemstone"
+  },
+  {
+    "name": "refined_mineral",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/cole/refined_mineral"
+  },
+  {
+    "name": "ancestral_spade",
+    "vanilla": "wooden_shovel",
+    "texture": "community_center/mayor/diana/ancestral_spade"
+  },
+  {
+    "name": "archaic_spade",
+    "vanilla": "stone_shovel",
+    "texture": "community_center/mayor/diana/archaic_spade"
+  },
+  {
+    "name": "daedalus_blade",
+    "vanilla": "iron_sword",
+    "texture": "community_center/mayor/diana/daedalus_blade"
+  },
+  {
+    "name": "daedalus_blade",
+    "vanilla": "iron_sword",
+    "texture": "community_center/mayor/diana/daedalus_blade_in_hand"
+  },
+  {
+    "name": "daedalus_blade_fragged",
+    "vanilla": "iron_sword",
+    "texture": "community_center/mayor/diana/daedalus_blade_fragged"
+  },
+  {
+    "name": "daedalus_blade_fragged",
+    "vanilla": "iron_sword",
+    "texture": "community_center/mayor/diana/daedalus_blade_fragged_in_hand"
+  },
+  {
+    "name": "deific_spade",
+    "vanilla": "golden_shovel",
+    "texture": "community_center/mayor/diana/deific_spade"
+  },
+  {
+    "name": "sword_of_revelations",
+    "vanilla": "wooden_sword",
+    "texture": "community_center/mayor/diana/sword_of_revelations"
+  },
+  {
+    "name": "sword_of_revelations",
+    "vanilla": "wooden_sword",
+    "texture": "community_center/mayor/diana/sword_of_revelations_in_hand"
+  },
+  {
+    "name": "crystalized_moonlight",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/finnegan/crystalized_moonlight"
+  },
+  {
+    "name": "fine_flour",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/finnegan/fine_flour"
+  },
+  {
+    "name": "fragranced_brown_mushroom",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/finnegan/fragranced_brown_mushroom"
+  },
+  {
+    "name": "locust_larva",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/finnegan/locust_larva"
+  },
+  {
+    "name": "moondew",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/finnegan/moondew"
+  },
+  {
+    "name": "potted_cactus",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/finnegan/potted_cactus"
+  },
+  {
+    "name": "visitors_gratitude",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/finnegan/visitors_gratitude"
+  },
+  {
+    "name": "jerrychine_gun",
+    "vanilla": "iron_sword",
+    "texture": "community_center/mayor/jerry/jerrychine_gun"
+  },
+  {
+    "name": "blue_shark_tooth",
+    "vanilla": "ghast_tear",
+    "texture": "community_center/mayor/marina/blue_shark_tooth"
+  },
+  {
+    "name": "great_white_shark_tooth",
+    "vanilla": "ghast_tear",
+    "texture": "community_center/mayor/marina/great_white_shark_tooth"
+  },
+  {
+    "name": "nurse_shark_tooth",
+    "vanilla": "ghast_tear",
+    "texture": "community_center/mayor/marina/nurse_shark_tooth"
+  },
+  {
+    "name": "shark_bait",
+    "vanilla": "paper",
+    "texture": "community_center/mayor/marina/shark_bait"
+  },
+  {
+    "name": "shark_fin",
+    "vanilla": "prismarine_shard",
+    "texture": "community_center/mayor/marina/shark_fin"
+  },
+  {
+    "name": "tiger_shark_tooth",
+    "vanilla": "ghast_tear",
+    "texture": "community_center/mayor/marina/tiger_shark_tooth"
+  },
+  {
+    "name": "midas_staff",
+    "vanilla": "stick",
+    "texture": "community_center/mayor/scorpius/midas_staff"
+  },
+  {
+    "name": "midas_staff",
+    "vanilla": "stick",
+    "texture": "community_center/mayor/scorpius/midas_staff_in_hand"
+  },
+  {
+    "name": "midas_staff_fragged",
+    "vanilla": "stick",
+    "texture": "community_center/mayor/scorpius/midas_staff_fragged"
+  },
+  {
+    "name": "midas_staff_fragged",
+    "vanilla": "stick",
+    "texture": "community_center/mayor/scorpius/midas_staff_fragged_in_hand"
+  },
+  {
+    "name": "ragnarock",
+    "vanilla": "iron_sword",
+    "texture": "events/april_fools/ragnarock"
+  },
+  {
+    "name": "aspect_of_the_jerry_signature",
+    "vanilla": "wooden_sword",
+    "texture": "events/century/aspect_of_the_jerry_signature"
+  },
+  {
+    "name": "admin_fishing_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/admin_fishing_rod"
+  },
+  {
+    "name": "blessed_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/blessed_bait"
+  },
+  {
+    "name": "carrot_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/carrot_bait"
+  },
+  {
+    "name": "corrupted_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/corrupted_bait"
+  },
+  {
+    "name": "dark_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/dark_bait"
+  },
+  {
+    "name": "fish_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/fish_bait"
+  },
+  {
+    "name": "frozen_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/frozen_bait"
+  },
+  {
+    "name": "hotspot_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/hotspot_bait"
+  },
+  {
+    "name": "hot_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/hot_bait"
+  },
+  {
+    "name": "ice_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/ice_bait"
+  },
+  {
+    "name": "light_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/light_bait"
+  },
+  {
+    "name": "minnow_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/minnow_bait"
+  },
+  {
+    "name": "spiked_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/spiked_bait"
+  },
+  {
+    "name": "spooky_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/spooky_bait"
+  },
+  {
+    "name": "treasure_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/treasure_bait"
+  },
+  {
+    "name": "whale_bait",
+    "vanilla": "paper",
+    "texture": "fishing/bait/whale_bait"
+  },
+  {
+    "name": "busted_belt_buckle",
+    "vanilla": "paper",
+    "texture": "fishing/junk/busted_belt_buckle"
+  },
+  {
+    "name": "old_leather_boot",
+    "vanilla": "paper",
+    "texture": "fishing/junk/old_leather_boot"
+  },
+  {
+    "name": "rusty_coin",
+    "vanilla": "paper",
+    "texture": "fishing/junk/rusty_coin"
+  },
+  {
+    "name": "eroc_enots_egrofer",
+    "vanilla": "paper",
+    "texture": "fishing/lotus_atoll/eroc_enots_egrofer"
+  },
+  {
+    "name": "lotus_water_orb",
+    "vanilla": "paper",
+    "texture": "fishing/lotus_atoll/lotus_water_orb"
+  },
+  {
+    "name": "unlucky_doubloon",
+    "vanilla": "paper",
+    "texture": "fishing/lotus_atoll/unlucky_doubloon"
+  },
+  {
+    "name": "alligator_skin",
+    "vanilla": "paper",
+    "texture": "fishing/misc/alligator_skin"
+  },
+  {
+    "name": "blue_ring",
+    "vanilla": "paper",
+    "texture": "fishing/misc/blue_ring"
+  },
+  {
+    "name": "brimstone_handle",
+    "vanilla": "stick",
+    "texture": "fishing/misc/brimstone_handle"
+  },
+  {
+    "name": "broken_radar",
+    "vanilla": "paper",
+    "texture": "fishing/misc/broken_radar"
+  },
+  {
+    "name": "bronze_bowl",
+    "vanilla": "paper",
+    "texture": "fishing/misc/bronze_bowl"
+  },
+  {
+    "name": "can_of_worms",
+    "vanilla": "paper",
+    "texture": "fishing/misc/can_of_worms"
+  },
+  {
+    "name": "flaming_flay",
+    "vanilla": "stick",
+    "texture": "fishing/misc/flaming_flay"
+  },
+  {
+    "name": "fried_feather",
+    "vanilla": "feather",
+    "texture": "fishing/misc/fried_feather"
+  },
+  {
+    "name": "frogcoin",
+    "vanilla": "paper",
+    "texture": "fishing/misc/frogcoin"
+  },
+  {
+    "name": "half_eaten_mushroom",
+    "vanilla": "paper",
+    "texture": "fishing/misc/half_eaten_mushroom"
+  },
+  {
+    "name": "hotspot_radar",
+    "vanilla": "paper",
+    "texture": "fishing/misc/hotspot_radar"
+  },
+  {
+    "name": "ink_splat",
+    "vanilla": "paper",
+    "texture": "fishing/misc/ink_splat"
+  },
+  {
+    "name": "scorched_crab_stick",
+    "vanilla": "paper",
+    "texture": "fishing/misc/scorched_crab_stick"
+  },
+  {
+    "name": "seared_escargot",
+    "vanilla": "paper",
+    "texture": "fishing/misc/seared_escargot"
+  },
+  {
+    "name": "singed_powder",
+    "vanilla": "paper",
+    "texture": "fishing/misc/singed_powder"
+  },
+  {
+    "name": "titanboa_shed",
+    "vanilla": "paper",
+    "texture": "fishing/misc/titanboa_shed"
+  },
+  {
+    "name": "torn_cloth",
+    "vanilla": "paper",
+    "texture": "fishing/misc/torn_cloth"
+  },
+  {
+    "name": "admin_lava_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/admin_lava_rod"
+  },
+  {
+    "name": "admin_lava_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/admin_lava_rod_cast"
+  },
+  {
+    "name": "admin_water_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/admin_water_rod"
+  },
+  {
+    "name": "admin_water_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/admin_water_rod_cast"
+  },
+  {
+    "name": "broken_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/broken_rod"
+  },
+  {
+    "name": "broken_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/broken_rod_cast"
+  },
+  {
+    "name": "challenging_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/challenging_rod"
+  },
+  {
+    "name": "challenging_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/challenging_rod_cast"
+  },
+  {
+    "name": "dirt_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/dirt_rod"
+  },
+  {
+    "name": "dirt_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/dirt_rod_cast"
+  },
+  {
+    "name": "giant_fishing_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/giant_fishing_rod"
+  },
+  {
+    "name": "giant_fishing_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/giant_fishing_rod_cast"
+  },
+  {
+    "name": "hellfire_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/hellfire_rod"
+  },
+  {
+    "name": "hellfire_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/hellfire_rod_cast"
+  },
+  {
+    "name": "inferno_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/inferno_rod"
+  },
+  {
+    "name": "inferno_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/inferno_rod_cast"
+  },
+  {
+    "name": "magma_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/magma_rod"
+  },
+  {
+    "name": "magma_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/magma_rod_cast"
+  },
+  {
+    "name": "rod_of_champions",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/rod_of_champions"
+  },
+  {
+    "name": "rod_of_champions_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/rod_of_champions_cast"
+  },
+  {
+    "name": "rod_of_legends",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/rod_of_legends"
+  },
+  {
+    "name": "rod_of_legends_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/rod_of_legends_cast"
+  },
+  {
+    "name": "rod_of_the_sea",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/rod_of_the_sea"
+  },
+  {
+    "name": "rod_of_the_sea_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/rod_of_the_sea_cast"
+  },
+  {
+    "name": "starter_lava_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/starter_lava_rod"
+  },
+  {
+    "name": "starter_lava_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/starter_lava_rod_cast"
+  },
+  {
+    "name": "topaz_rod",
+    "vanilla": "fishing_rod",
+    "texture": "fishing/rod/topaz_rod"
+  },
+  {
+    "name": "topaz_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "fishing/rod/topaz_rod_cast"
+  },
+  {
+    "name": "common_hook",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/hook/common_hook"
+  },
+  {
+    "name": "hotspot_hook",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/hook/hotspot_hook"
+  },
+  {
+    "name": "phantom_hook",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/hook/phantom_hook"
+  },
+  {
+    "name": "puddle_jumper_hook",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/hook/puddle_jumper_hook"
+  },
+  {
+    "name": "treasure_hook",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/hook/treasure_hook"
+  },
+  {
+    "name": "shredded_line",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/line/shredded_line"
+  },
+  {
+    "name": "speedy_line",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/line/speedy_line"
+  },
+  {
+    "name": "titan_line",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/line/titan_line"
+  },
+  {
+    "name": "trophy_line",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/line/trophy_line"
+  },
+  {
+    "name": "chum_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/chum_sinker"
+  },
+  {
+    "name": "festive_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/festive_sinker"
+  },
+  {
+    "name": "hotspot_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/hotspot_sinker"
+  },
+  {
+    "name": "icy_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/icy_sinker"
+  },
+  {
+    "name": "junk_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/junk_sinker"
+  },
+  {
+    "name": "lotus_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/lotus_sinker"
+  },
+  {
+    "name": "prismarine_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/prismarine_sinker"
+  },
+  {
+    "name": "sponge_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/sponge_sinker"
+  },
+  {
+    "name": "stingy_sinker",
+    "vanilla": "paper",
+    "texture": "fishing/rod_part/sinker/stingy_sinker"
+  },
+  {
+    "name": "bronze_ship_engine",
+    "vanilla": "paper",
+    "texture": "fishing/ship/bronze_ship_engine"
+  },
+  {
+    "name": "bronze_ship_helm",
+    "vanilla": "paper",
+    "texture": "fishing/ship/bronze_ship_helm"
+  },
+  {
+    "name": "bronze_ship_hull",
+    "vanilla": "paper",
+    "texture": "fishing/ship/bronze_ship_hull"
+  },
+  {
+    "name": "cracked_ship_helm",
+    "vanilla": "paper",
+    "texture": "fishing/ship/cracked_ship_helm"
+  },
+  {
+    "name": "rusty_ship_engine",
+    "vanilla": "paper",
+    "texture": "fishing/ship/rusty_ship_engine"
+  },
+  {
+    "name": "rusty_ship_hull",
+    "vanilla": "paper",
+    "texture": "fishing/ship/rusty_ship_hull"
+  },
+  {
+    "name": "blessed_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/blessed_frog_bronze"
+  },
+  {
+    "name": "blessed_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/blessed_frog_diamond"
+  },
+  {
+    "name": "blessed_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/blessed_frog_gold"
+  },
+  {
+    "name": "blessed_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/blessed_frog_silver"
+  },
+  {
+    "name": "bullfrog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/bullfrog_bronze"
+  },
+  {
+    "name": "bullfrog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/bullfrog_diamond"
+  },
+  {
+    "name": "bullfrog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/bullfrog_gold"
+  },
+  {
+    "name": "bullfrog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/bullfrog_silver"
+  },
+  {
+    "name": "cave_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/cave_frog_bronze"
+  },
+  {
+    "name": "cave_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/cave_frog_diamond"
+  },
+  {
+    "name": "cave_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/cave_frog_gold"
+  },
+  {
+    "name": "cave_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/cave_frog_silver"
+  },
+  {
+    "name": "common_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/common_frog_bronze"
+  },
+  {
+    "name": "common_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/common_frog_diamond"
+  },
+  {
+    "name": "common_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/common_frog_gold"
+  },
+  {
+    "name": "common_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/common_frog_silver"
+  },
+  {
+    "name": "exploding_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/exploding_frog_bronze"
+  },
+  {
+    "name": "exploding_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/exploding_frog_diamond"
+  },
+  {
+    "name": "exploding_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/exploding_frog_gold"
+  },
+  {
+    "name": "exploding_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/exploding_frog_silver"
+  },
+  {
+    "name": "highlands_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/highlands_frog_bronze"
+  },
+  {
+    "name": "highlands_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/highlands_frog_diamond"
+  },
+  {
+    "name": "highlands_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/highlands_frog_gold"
+  },
+  {
+    "name": "highlands_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/highlands_frog_silver"
+  },
+  {
+    "name": "leap_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/leap_frog_bronze"
+  },
+  {
+    "name": "leap_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/leap_frog_diamond"
+  },
+  {
+    "name": "leap_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/leap_frog_gold"
+  },
+  {
+    "name": "leap_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/leap_frog_silver"
+  },
+  {
+    "name": "puddle_jumper_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/puddle_jumper_bronze"
+  },
+  {
+    "name": "puddle_jumper_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/puddle_jumper_diamond"
+  },
+  {
+    "name": "puddle_jumper_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/puddle_jumper_gold"
+  },
+  {
+    "name": "puddle_jumper_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/puddle_jumper_silver"
+  },
+  {
+    "name": "reality_hopper_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/reality_hopper_bronze"
+  },
+  {
+    "name": "reality_hopper_diamond",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/reality_hopper_diamond"
+  },
+  {
+    "name": "reality_hopper_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/reality_hopper_gold"
+  },
+  {
+    "name": "reality_hopper_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/reality_hopper_silver"
+  },
+  {
+    "name": "sea_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/sea_frog_bronze"
+  },
+  {
+    "name": "sea_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/sea_frog_diamond"
+  },
+  {
+    "name": "sea_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/sea_frog_gold"
+  },
+  {
+    "name": "sea_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/sea_frog_silver"
+  },
+  {
+    "name": "tree_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/tree_frog_bronze"
+  },
+  {
+    "name": "tree_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/tree_frog_diamond"
+  },
+  {
+    "name": "tree_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/tree_frog_gold"
+  },
+  {
+    "name": "tree_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/tree_frog_silver"
+  },
+  {
+    "name": "wetlands_frog_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/wetlands_frog_bronze"
+  },
+  {
+    "name": "wetlands_frog_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/frog/wetlands_frog_diamond"
+  },
+  {
+    "name": "wetlands_frog_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/wetlands_frog_gold"
+  },
+  {
+    "name": "wetlands_frog_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/frog/wetlands_frog_silver"
+  },
+  {
+    "name": "blobfish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/blobfish_bronze"
+  },
+  {
+    "name": "blobfish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/blobfish_diamond"
+  },
+  {
+    "name": "blobfish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/blobfish_gold"
+  },
+  {
+    "name": "blobfish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/blobfish_silver"
+  },
+  {
+    "name": "flyfish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/flyfish_bronze"
+  },
+  {
+    "name": "flyfish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/flyfish_diamond"
+  },
+  {
+    "name": "flyfish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/flyfish_gold"
+  },
+  {
+    "name": "flyfish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/flyfish_silver"
+  },
+  {
+    "name": "golden_fish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/golden_fish_bronze"
+  },
+  {
+    "name": "golden_fish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/golden_fish_diamond"
+  },
+  {
+    "name": "golden_fish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/golden_fish_gold"
+  },
+  {
+    "name": "golden_fish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/golden_fish_silver"
+  },
+  {
+    "name": "gusher_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/gusher_bronze"
+  },
+  {
+    "name": "gusher_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/gusher_diamond"
+  },
+  {
+    "name": "gusher_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/gusher_gold"
+  },
+  {
+    "name": "gusher_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/gusher_silver"
+  },
+  {
+    "name": "karate_fish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/karate_fish_bronze"
+  },
+  {
+    "name": "karate_fish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/karate_fish_diamond"
+  },
+  {
+    "name": "karate_fish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/karate_fish_gold"
+  },
+  {
+    "name": "karate_fish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/karate_fish_silver"
+  },
+  {
+    "name": "lava_horse_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/lava_horse_bronze"
+  },
+  {
+    "name": "lava_horse_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/lava_horse_diamond"
+  },
+  {
+    "name": "lava_horse_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/lava_horse_gold"
+  },
+  {
+    "name": "lava_horse_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/lava_horse_silver"
+  },
+  {
+    "name": "magmafish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/magmafish_bronze"
+  },
+  {
+    "name": "magmafish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/magmafish_diamond"
+  },
+  {
+    "name": "magmafish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/magmafish_gold"
+  },
+  {
+    "name": "magmafish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/magmafish_silver"
+  },
+  {
+    "name": "mana_ray_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/mana_ray_bronze"
+  },
+  {
+    "name": "mana_ray_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/mana_ray_diamond"
+  },
+  {
+    "name": "mana_ray_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/mana_ray_gold"
+  },
+  {
+    "name": "mana_ray_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/mana_ray_silver"
+  },
+  {
+    "name": "moldfin_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/moldfin_bronze"
+  },
+  {
+    "name": "moldfin_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/moldfin_diamond"
+  },
+  {
+    "name": "moldfin_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/moldfin_gold"
+  },
+  {
+    "name": "moldfin_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/moldfin_silver"
+  },
+  {
+    "name": "obfuscated_fish_1_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_1_bronze"
+  },
+  {
+    "name": "obfuscated_fish_1_diamond",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_1_diamond"
+  },
+  {
+    "name": "obfuscated_fish_1_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_1_gold"
+  },
+  {
+    "name": "obfuscated_fish_1_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_1_silver"
+  },
+  {
+    "name": "obfuscated_fish_2_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_2_bronze"
+  },
+  {
+    "name": "obfuscated_fish_2_diamond",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_2_diamond"
+  },
+  {
+    "name": "obfuscated_fish_2_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_2_gold"
+  },
+  {
+    "name": "obfuscated_fish_2_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_2_silver"
+  },
+  {
+    "name": "obfuscated_fish_3_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_3_bronze"
+  },
+  {
+    "name": "obfuscated_fish_3_diamond",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_3_diamond"
+  },
+  {
+    "name": "obfuscated_fish_3_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_3_gold"
+  },
+  {
+    "name": "obfuscated_fish_3_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/obfuscated_fish_3_silver"
+  },
+  {
+    "name": "skeleton_fish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/skeleton_fish_bronze"
+  },
+  {
+    "name": "skeleton_fish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/skeleton_fish_diamond"
+  },
+  {
+    "name": "skeleton_fish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/skeleton_fish_gold"
+  },
+  {
+    "name": "skeleton_fish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/skeleton_fish_silver"
+  },
+  {
+    "name": "slugfish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/slugfish_bronze"
+  },
+  {
+    "name": "slugfish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/slugfish_diamond"
+  },
+  {
+    "name": "slugfish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/slugfish_gold"
+  },
+  {
+    "name": "slugfish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/slugfish_silver"
+  },
+  {
+    "name": "soul_fish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/soul_fish_bronze"
+  },
+  {
+    "name": "soul_fish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/soul_fish_diamond"
+  },
+  {
+    "name": "soul_fish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/soul_fish_gold"
+  },
+  {
+    "name": "soul_fish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/soul_fish_silver"
+  },
+  {
+    "name": "steaming_hot_flounder_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/steaming_hot_flounder_bronze"
+  },
+  {
+    "name": "steaming_hot_flounder_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/steaming_hot_flounder_diamond"
+  },
+  {
+    "name": "steaming_hot_flounder_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/steaming_hot_flounder_gold"
+  },
+  {
+    "name": "steaming_hot_flounder_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/steaming_hot_flounder_silver"
+  },
+  {
+    "name": "sulphur_skitter_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/sulphur_skitter_bronze"
+  },
+  {
+    "name": "sulphur_skitter_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/sulphur_skitter_diamond"
+  },
+  {
+    "name": "sulphur_skitter_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/sulphur_skitter_gold"
+  },
+  {
+    "name": "sulphur_skitter_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/sulphur_skitter_silver"
+  },
+  {
+    "name": "vanille_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/vanille_bronze"
+  },
+  {
+    "name": "vanille_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/vanille_diamond"
+  },
+  {
+    "name": "vanille_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/vanille_gold"
+  },
+  {
+    "name": "vanille_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/vanille_silver"
+  },
+  {
+    "name": "volcanic_stonefish_bronze",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/volcanic_stonefish_bronze"
+  },
+  {
+    "name": "volcanic_stonefish_diamond",
+    "vanilla": "diamond",
+    "texture": "fishing/trophy/lava/volcanic_stonefish_diamond"
+  },
+  {
+    "name": "volcanic_stonefish_gold",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/volcanic_stonefish_gold"
+  },
+  {
+    "name": "volcanic_stonefish_silver",
+    "vanilla": "paper",
+    "texture": "fishing/trophy/lava/volcanic_stonefish_silver"
+  },
+  {
+    "name": "admin_chisel",
+    "vanilla": "stick",
+    "texture": "glacite/admin_chisel"
+  },
+  {
+    "name": "chisel",
+    "vanilla": "stick",
+    "texture": "glacite/chisel/chisel"
+  },
+  {
+    "name": "glacite_plated_chisel",
+    "vanilla": "stick",
+    "texture": "glacite/chisel/glacite_plated_chisel"
+  },
+  {
+    "name": "perfect_chisel",
+    "vanilla": "stick",
+    "texture": "glacite/chisel/perfect_chisel"
+  },
+  {
+    "name": "reinforced_chisel",
+    "vanilla": "stick",
+    "texture": "glacite/chisel/reinforced_chisel"
+  },
+  {
+    "name": "aquamarine_crystal",
+    "vanilla": "paper",
+    "texture": "glacite/crystal/aquamarine_crystal"
+  },
+  {
+    "name": "citrine_crystal",
+    "vanilla": "paper",
+    "texture": "glacite/crystal/citrine_crystal"
+  },
+  {
+    "name": "onyx_crystal",
+    "vanilla": "paper",
+    "texture": "glacite/crystal/onyx_crystal"
+  },
+  {
+    "name": "opal_crystal",
+    "vanilla": "paper",
+    "texture": "glacite/crystal/opal_crystal"
+  },
+  {
+    "name": "peridot_crystal",
+    "vanilla": "paper",
+    "texture": "glacite/crystal/peridot_crystal"
+  },
+  {
+    "name": "claw_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/claw_fossil"
+  },
+  {
+    "name": "clubbed_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/clubbed_fossil"
+  },
+  {
+    "name": "footprint_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/footprint_fossil"
+  },
+  {
+    "name": "helix_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/helix_fossil"
+  },
+  {
+    "name": "spine_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/spine_fossil"
+  },
+  {
+    "name": "tusk_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/tusk_fossil"
+  },
+  {
+    "name": "ugly_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/ugly_fossil"
+  },
+  {
+    "name": "webbed_fossil",
+    "vanilla": "paper",
+    "texture": "glacite/fossils/webbed_fossil"
+  },
+  {
+    "name": "glacite",
+    "vanilla": "paper",
+    "texture": "glacite/glacite/glacite"
+  },
+  {
+    "name": "glacite_amalgamation",
+    "vanilla": "paper",
+    "texture": "glacite/glacite/glacite_amalgamation"
+  },
+  {
+    "name": "suspicious_scrap",
+    "vanilla": "paper",
+    "texture": "glacite/suspicious_scrap"
+  },
+  {
+    "name": "refined_tungsten",
+    "vanilla": "paper",
+    "texture": "glacite/tungsten/refined_tungsten"
+  },
+  {
+    "name": "tungsten",
+    "vanilla": "paper",
+    "texture": "glacite/tungsten/tungsten"
+  },
+  {
+    "name": "tungsten_key",
+    "vanilla": "paper",
+    "texture": "glacite/tungsten/tungsten_key"
+  },
+  {
+    "name": "tungsten_plate",
+    "vanilla": "paper",
+    "texture": "glacite/tungsten/tungsten_plate"
+  },
+  {
+    "name": "refined_umber",
+    "vanilla": "paper",
+    "texture": "glacite/umber/refined_umber"
+  },
+  {
+    "name": "umber",
+    "vanilla": "paper",
+    "texture": "glacite/umber/umber"
+  },
+  {
+    "name": "umber_key",
+    "vanilla": "paper",
+    "texture": "glacite/umber/umber_key"
+  },
+  {
+    "name": "umber_plate",
+    "vanilla": "paper",
+    "texture": "glacite/umber/umber_plate"
+  },
+  {
+    "name": "perfect_plate",
+    "vanilla": "paper",
+    "texture": "glacite/uncategorized/perfect_plate"
+  },
+  {
+    "name": "royal_compass",
+    "vanilla": "paper",
+    "texture": "glacite/uncategorized/royal_compass"
+  },
+  {
+    "name": "skeleton_key",
+    "vanilla": "tripwire_hook",
+    "texture": "glacite/uncategorized/skeleton_key"
+  },
+  {
+    "name": "starfall_seasoning",
+    "vanilla": "paper",
+    "texture": "glacite/uncategorized/starfall_seasoning"
+  },
+  {
+    "name": "tungsten_regulator",
+    "vanilla": "paper",
+    "texture": "glacite/uncategorized/tungsten_regulator"
+  },
+  {
+    "name": "ghoul_buster",
+    "vanilla": "stick",
+    "texture": "great_spook/ghoul_buster"
+  },
+  {
+    "name": "ghoul_buster",
+    "vanilla": "stick",
+    "texture": "great_spook/ghoul_buster_in_hand"
+  },
+  {
+    "name": "great_spook_staff",
+    "vanilla": "stick",
+    "texture": "great_spook/great_spook_staff"
+  },
+  {
+    "name": "great_spook_staff",
+    "vanilla": "stick",
+    "texture": "great_spook/great_spook_staff_in_hand"
+  },
+  {
+    "name": "great_spook_sword",
+    "vanilla": "wooden_sword",
+    "texture": "great_spook/great_spook_sword"
+  },
+  {
+    "name": "dragon_shortbow",
+    "vanilla": "bow",
+    "texture": "island_relevant/combat_3/dragon_shortbow"
+  },
+  {
+    "name": "dragon_shortbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "island_relevant/combat_3/dragon_shortbow_pulling_0"
+  },
+  {
+    "name": "dragon_shortbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "island_relevant/combat_3/dragon_shortbow_pulling_1"
+  },
+  {
+    "name": "dragon_shortbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "island_relevant/combat_3/dragon_shortbow_pulling_2"
+  },
+  {
+    "name": "mite_gel",
+    "vanilla": "paper",
+    "texture": "island_relevant/combat_3/mite_gel"
+  },
+  {
+    "name": "ritual_residue",
+    "vanilla": "paper",
+    "texture": "island_relevant/combat_3/ritual_residue"
+  },
+  {
+    "name": "void_sword",
+    "vanilla": "diamond_sword",
+    "texture": "island_relevant/combat_3/void_sword"
+  },
+  {
+    "name": "ender_bow",
+    "vanilla": "bow",
+    "texture": "island_relevant/combat_3/weapons/ender_bow"
+  },
+  {
+    "name": "ender_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "island_relevant/combat_3/weapons/ender_bow_pulling_0"
+  },
+  {
+    "name": "ender_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "island_relevant/combat_3/weapons/ender_bow_pulling_1"
+  },
+  {
+    "name": "ender_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "island_relevant/combat_3/weapons/ender_bow_pulling_2"
+  },
+  {
+    "name": "endstone_blade",
+    "vanilla": "stone_sword",
+    "texture": "island_relevant/combat_3/weapons/endstone_blade"
+  },
+  {
+    "name": "end_stone_bow",
+    "vanilla": "bow",
+    "texture": "island_relevant/combat_3/weapons/end_stone_bow"
+  },
+  {
+    "name": "end_stone_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "island_relevant/combat_3/weapons/end_stone_bow_pulling_0"
+  },
+  {
+    "name": "end_stone_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "island_relevant/combat_3/weapons/end_stone_bow_pulling_1"
+  },
+  {
+    "name": "end_stone_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "island_relevant/combat_3/weapons/end_stone_bow_pulling_2"
+  },
+  {
+    "name": "end_sword",
+    "vanilla": "diamond_sword",
+    "texture": "island_relevant/combat_3/weapons/end_sword"
+  },
+  {
+    "name": "hollow_wand",
+    "vanilla": "stick",
+    "texture": "island_relevant/crimson_isle/armors/hollow/hollow_wand"
+  },
+  {
+    "name": "bayou_water_orb",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/bayou_water_orb"
+  },
+  {
+    "name": "bobbin_scriptures",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/bobbin_scriptures"
+  },
+  {
+    "name": "hotspot_water_orb",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/hotspot_water_orb"
+  },
+  {
+    "name": "lava_water_orb",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/lava_water_orb"
+  },
+  {
+    "name": "shark_water_orb",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/shark_water_orb"
+  },
+  {
+    "name": "spooky_water_orb",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/spooky_water_orb"
+  },
+  {
+    "name": "water_orb",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/water_orb"
+  },
+  {
+    "name": "winter_water_orb",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/bobbin_time/winter_water_orb"
+  },
+  {
+    "name": "elles_lava_rod",
+    "vanilla": "fishing_rod",
+    "texture": "island_relevant/crimson_isle/kuudra/elles_lava_rod"
+  },
+  {
+    "name": "elles_lava_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "island_relevant/crimson_isle/kuudra/elles_lava_rod_cast"
+  },
+  {
+    "name": "elles_pickaxe",
+    "vanilla": "iron_pickaxe",
+    "texture": "island_relevant/crimson_isle/kuudra/elles_pickaxe"
+  },
+  {
+    "name": "kuudra_tentacle",
+    "vanilla": "paper",
+    "texture": "island_relevant/crimson_isle/kuudra/kuudra_tentacle"
+  },
+  {
+    "name": "tormentor",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/crimson_isle/tormentor"
+  },
+  {
+    "name": "tormentor",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/crimson_isle/tormentor_in_hand"
+  },
+  {
+    "name": "architects_first_draft",
+    "vanilla": "paper",
+    "texture": "island_relevant/dungeons/architects_first_draft"
+  },
+  {
+    "name": "bonemerang",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/bonemerang"
+  },
+  {
+    "name": "bone_reaver",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/dungeons/bone_reaver"
+  },
+  {
+    "name": "bone_reaver",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/dungeons/bone_reaver_in_hand"
+  },
+  {
+    "name": "bonzos_staff",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/bonzos_staff"
+  },
+  {
+    "name": "bonzos_staff",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/bonzos_staff_in_hand"
+  },
+  {
+    "name": "bonzos_staff_fragged",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/bonzos_staff_fragged"
+  },
+  {
+    "name": "bonzos_staff_fragged",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/bonzos_staff_fragged_in_hand"
+  },
+  {
+    "name": "bouqet_of_lies",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/bouqet_of_lies"
+  },
+  {
+    "name": "felthorn_reaper",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/dungeons/felthorn_reaper"
+  },
+  {
+    "name": "felthorn_reaper",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/dungeons/felthorn_reaper_in_hand"
+  },
+  {
+    "name": "felthorn_reaper_fragged",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/dungeons/felthorn_reaper_fragged"
+  },
+  {
+    "name": "felthorn_reaper_fragged",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/dungeons/felthorn_reaper_fragged_in_hand"
+  },
+  {
+    "name": "spirit_leap",
+    "vanilla": "paper",
+    "texture": "island_relevant/dungeons/spirit_leap"
+  },
+  {
+    "name": "spirit_sceptre",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/spirit_sceptre"
+  },
+  {
+    "name": "spirit_sceptre_fragged",
+    "vanilla": "stick",
+    "texture": "island_relevant/dungeons/spirit_sceptre_fragged"
+  },
+  {
+    "name": "spirit_shortbow",
+    "vanilla": "bow",
+    "texture": "island_relevant/dungeons/spirit_shortbow"
+  },
+  {
+    "name": "spirit_shortbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "island_relevant/dungeons/spirit_shortbow_pulling_0"
+  },
+  {
+    "name": "spirit_shortbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "island_relevant/dungeons/spirit_shortbow_pulling_1"
+  },
+  {
+    "name": "spirit_shortbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "island_relevant/dungeons/spirit_shortbow_pulling_2"
+  },
+  {
+    "name": "chum",
+    "vanilla": "paper",
+    "texture": "island_relevant/farming_1/chum"
+  },
+  {
+    "name": "glowing_mushroom",
+    "vanilla": "paper",
+    "texture": "island_relevant/farming_1/glowing_mushroom"
+  },
+  {
+    "name": "glowy_chum_bait",
+    "vanilla": "paper",
+    "texture": "island_relevant/farming_1/glowy_chum_bait"
+  },
+  {
+    "name": "mobys_shears",
+    "vanilla": "shears",
+    "texture": "island_relevant/farming_1/mobys_shears"
+  },
+  {
+    "name": "decent_axe",
+    "vanilla": "wooden_axe",
+    "texture": "island_relevant/foraging_2/axes/decent_axe"
+  },
+  {
+    "name": "figstone_splitter",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/foraging_2/axes/figstone_splitter"
+  },
+  {
+    "name": "fig_hew",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/foraging_2/axes/fig_hew"
+  },
+  {
+    "name": "seriously_damaged_axe",
+    "vanilla": "wooden_axe",
+    "texture": "island_relevant/foraging_2/axes/seriously_damaged_axe"
+  },
+  {
+    "name": "spruce_axe",
+    "vanilla": "wooden_axe",
+    "texture": "island_relevant/foraging_2/axes/spruce_axe"
+  },
+  {
+    "name": "sweep_axe",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/foraging_2/axes/sweep_axe"
+  },
+  {
+    "name": "treecapitator",
+    "vanilla": "golden_axe",
+    "texture": "island_relevant/foraging_2/axes/treecapitator"
+  },
+  {
+    "name": "bubbles_of_air",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/bubbles_of_air"
+  },
+  {
+    "name": "tree_the_fish",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/fish_family/tree_the_fish"
+  },
+  {
+    "name": "flexbone",
+    "vanilla": "bone",
+    "texture": "island_relevant/foraging_2/flexbone"
+  },
+  {
+    "name": "entangler_lasso",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/hunting/entangler_lasso"
+  },
+  {
+    "name": "everstretch_lasso",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/hunting/everstretch_lasso"
+  },
+  {
+    "name": "vinerip_lasso",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/hunting/vinerip_lasso"
+  },
+  {
+    "name": "hunting_toolkit",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/hunting_toolkit"
+  },
+  {
+    "name": "prime_huntaxe",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/foraging_2/hunting_weapons/prime_huntaxe"
+  },
+  {
+    "name": "reinforced_huntaxe",
+    "vanilla": "golden_axe",
+    "texture": "island_relevant/foraging_2/hunting_weapons/reinforced_huntaxe"
+  },
+  {
+    "name": "savage_huntaxe",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/foraging_2/hunting_weapons/savage_huntaxe"
+  },
+  {
+    "name": "sharpened_huntaxe",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/foraging_2/hunting_weapons/sharpened_huntaxe"
+  },
+  {
+    "name": "worn_huntaxe",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/foraging_2/hunting_weapons/worn_huntaxe"
+  },
+  {
+    "name": "mangcore",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/logs/stacked/mangcore"
+  },
+  {
+    "name": "basic_fishing_net",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/nets/basic_fishing_net"
+  },
+  {
+    "name": "medium_fishing_net",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/nets/medium_fishing_net"
+  },
+  {
+    "name": "turbo_fishing_net",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/nets/turbo_fishing_net"
+  },
+  {
+    "name": "deep_root",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/resources/deep_root"
+  },
+  {
+    "name": "gill_membrane",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/resources/gill_membrane"
+  },
+  {
+    "name": "sea_lumies",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/resources/sea_lumies"
+  },
+  {
+    "name": "candycomb",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/salts/candycomb"
+  },
+  {
+    "name": "exalted_lushlilac_bonbon",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/salts/exalted_lushlilac_bonbon"
+  },
+  {
+    "name": "lushlilac",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/salts/lushlilac"
+  },
+  {
+    "name": "lushlilac_bonbon",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/salts/lushlilac_bonbon"
+  },
+  {
+    "name": "oceandy",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/salts/oceandy"
+  },
+  {
+    "name": "prime_lushlilac_bonbon",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/salts/prime_lushlilac_bonbon"
+  },
+  {
+    "name": "signal_enhancer",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/signal_enhancer"
+  },
+  {
+    "name": "starlyn_prize",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/starlyn/starlyn_prize"
+  },
+  {
+    "name": "stretching_sticks",
+    "vanilla": "stick",
+    "texture": "island_relevant/foraging_2/stretching_sticks"
+  },
+  {
+    "name": "sturdy_bone",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/sturdy_bone"
+  },
+  {
+    "name": "tender_wood",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/tender_wood"
+  },
+  {
+    "name": "astral_huntrap",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/traps/astral_huntrap"
+  },
+  {
+    "name": "greater_huntrap",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/traps/greater_huntrap"
+  },
+  {
+    "name": "large_huntrap",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/traps/large_huntrap"
+  },
+  {
+    "name": "medium_huntrap",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/traps/medium_huntrap"
+  },
+  {
+    "name": "small_huntrap",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/traps/small_huntrap"
+  },
+  {
+    "name": "vinesap",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/vinesap"
+  },
+  {
+    "name": "warty",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/warty"
+  },
+  {
+    "name": "wet_water",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/wet_water"
+  },
+  {
+    "name": "wooden_bait",
+    "vanilla": "paper",
+    "texture": "island_relevant/foraging_2/wooden_bait"
+  },
+  {
+    "name": "box_of_seeds",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/box_of_seeds"
+  },
+  {
+    "name": "builders_ruler",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/builders_ruler"
+  },
+  {
+    "name": "cropshot_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/cropshot_chip"
+  },
+  {
+    "name": "evergreen_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/evergreen_chip"
+  },
+  {
+    "name": "hypercharge_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/hypercharge_chip"
+  },
+  {
+    "name": "mechamind_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/mechamind_chip"
+  },
+  {
+    "name": "overdrive_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/overdrive_chip"
+  },
+  {
+    "name": "quickdraw_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/quickdraw_chip"
+  },
+  {
+    "name": "rarefinder_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/rarefinder_chip"
+  },
+  {
+    "name": "sowledge_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/sowledge_chip"
+  },
+  {
+    "name": "synthesis_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/synthesis_chip"
+  },
+  {
+    "name": "vermin_vaporizer_chip",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/chips/vermin_vaporizer_chip"
+  },
+  {
+    "name": "compost",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/compost"
+  },
+  {
+    "name": "compost_bundle",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/compost_bundle"
+  },
+  {
+    "name": "condensed_fermento",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/condensed_fermento"
+  },
+  {
+    "name": "condensed_helianthus",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/condensed_helianthus"
+  },
+  {
+    "name": "cropie",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/cropie"
+  },
+  {
+    "name": "fermento",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/fermento"
+  },
+  {
+    "name": "fire_in_a_bottle",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/fire_in_a_bottle"
+  },
+  {
+    "name": "dead_plant",
+    "vanilla": "dead_bush",
+    "texture": "island_relevant/garden/greenhouse/dead_plant"
+  },
+  {
+    "name": "ethereal_vine",
+    "vanilla": "vine",
+    "texture": "island_relevant/garden/greenhouse/ethereal_vine"
+  },
+  {
+    "name": "greenhouse_blueprint",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/greenhouse_blueprint"
+  },
+  {
+    "name": "compacted_moonflower",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/moonflower/compacted_moonflower"
+  },
+  {
+    "name": "overclocker_3000",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/overclocker_3000"
+  },
+  {
+    "name": "plant_diagnostics_tool",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/plant_diagnostics_tool"
+  },
+  {
+    "name": "compacted_sunflower",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/sunflower/compacted_sunflower"
+  },
+  {
+    "name": "sunflower_oil",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/sunflower/sunflower_oil"
+  },
+  {
+    "name": "bachelors_rose",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/wild_rose/bachelors_rose"
+  },
+  {
+    "name": "compacted_wild_rose",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/wild_rose/compacted_wild_rose"
+  },
+  {
+    "name": "filled_rosewater_flask",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/wild_rose/filled_rosewater_flask"
+  },
+  {
+    "name": "plot_eraser",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/wild_rose/plot_eraser"
+  },
+  {
+    "name": "prickly_kiss",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/wild_rose/prickly_kiss"
+  },
+  {
+    "name": "rosewater_flask",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/greenhouse/wild_rose/rosewater_flask"
+  },
+  {
+    "name": "helianthus",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/helianthus"
+  },
+  {
+    "name": "hoe_of_greatest_tilling",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/hoe_of_greatest_tilling"
+  },
+  {
+    "name": "iridium",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/iridium"
+  },
+  {
+    "name": "melon_dicer_2",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/garden/melon_dicer_2"
+  },
+  {
+    "name": "melon_dicer_3",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/garden/melon_dicer_3"
+  },
+  {
+    "name": "chirping_stereo",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/chirping_stereo"
+  },
+  {
+    "name": "dung",
+    "vanilla": "diamond_pickaxe",
+    "texture": "island_relevant/garden/pests/dung"
+  },
+  {
+    "name": "honey_jar",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/honey_jar"
+  },
+  {
+    "name": "mouse_pest_trap",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/mouse_pest_trap"
+  },
+  {
+    "name": "pest_repellent",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/pest_repellent"
+  },
+  {
+    "name": "pest_repellent_max",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/pest_repellent_max"
+  },
+  {
+    "name": "pest_trap",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/pest_trap"
+  },
+  {
+    "name": "plant_matter",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/plant_matter"
+  },
+  {
+    "name": "portable_washer",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/portable_washer"
+  },
+  {
+    "name": "sprayonator",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/pests/sprayonator"
+  },
+  {
+    "name": "vermin_pest_trap",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/vermin_pest_trap"
+  },
+  {
+    "name": "wriggling_larva",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/pests/wriggling_larva"
+  },
+  {
+    "name": "pumpkin_dicer_2",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/garden/pumpkin_dicer_2"
+  },
+  {
+    "name": "pumpkin_dicer_3",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/garden/pumpkin_dicer_3"
+  },
+  {
+    "name": "squash",
+    "vanilla": "paper",
+    "texture": "island_relevant/garden/squash"
+  },
+  {
+    "name": "advanced_gardening_axe",
+    "vanilla": "iron_axe",
+    "texture": "island_relevant/garden/tools/advanced_gardening_axe"
+  },
+  {
+    "name": "advanced_gardening_hoe",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/advanced_gardening_hoe"
+  },
+  {
+    "name": "aquamaster_hydromax_empty",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/aquamaster_hydromax_empty"
+  },
+  {
+    "name": "aquamaster_hydromax_full",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/aquamaster_hydromax_full"
+  },
+  {
+    "name": "aquamaster_x_empty",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/aquamaster_x_empty"
+  },
+  {
+    "name": "aquamaster_x_full",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/aquamaster_x_full"
+  },
+  {
+    "name": "basic_gardening_axe",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/basic_gardening_axe"
+  },
+  {
+    "name": "basic_gardening_hoe",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/basic_gardening_hoe"
+  },
+  {
+    "name": "garden_scythe",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/garden_scythe"
+  },
+  {
+    "name": "hydro_can_1000_empty",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/hydro_can_1000_empty"
+  },
+  {
+    "name": "hydro_can_1000_full",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/hydro_can_1000_full"
+  },
+  {
+    "name": "hydro_can_turbo_2000_empty",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/hydro_can_turbo_2000_empty"
+  },
+  {
+    "name": "hydro_can_turbo_2000_full",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/hydro_can_turbo_2000_full"
+  },
+  {
+    "name": "hydro_can_ultra_3000_empty",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/hydro_can_ultra_3000_empty"
+  },
+  {
+    "name": "hydro_can_ultra_3000_full",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/hydro_can_ultra_3000_full"
+  },
+  {
+    "name": "sam_scythe",
+    "vanilla": "iron_hoe",
+    "texture": "island_relevant/garden/tools/sam_scythe"
+  },
+  {
+    "name": "admin_vacuum",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/vacuum/admin_vacuum"
+  },
+  {
+    "name": "infini_vacuum",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/vacuum/infini_vacuum"
+  },
+  {
+    "name": "infini_vacuum_hooverius",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/vacuum/infini_vacuum_hooverius"
+  },
+  {
+    "name": "skymart_hyper_vacuum",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/vacuum/skymart_hyper_vacuum"
+  },
+  {
+    "name": "skymart_turbo_vacuum",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/vacuum/skymart_turbo_vacuum"
+  },
+  {
+    "name": "skymart_vacuum",
+    "vanilla": "stick",
+    "texture": "island_relevant/garden/vacuum/skymart_vacuum"
+  },
+  {
+    "name": "blue_cheese_goblin_omelette",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/forge/omelettes/blue_cheese_goblin_omelette"
+  },
+  {
+    "name": "goblin_omelette",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/forge/omelettes/goblin_omelette"
+  },
+  {
+    "name": "pesto_goblin_omelette",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/forge/omelettes/pesto_goblin_omelette"
+  },
+  {
+    "name": "spicy_goblin_omelette",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/forge/omelettes/spicy_goblin_omelette"
+  },
+  {
+    "name": "sunny_side_goblin_omelette",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/forge/omelettes/sunny_side_goblin_omelette"
+  },
+  {
+    "name": "blue_goblin_egg",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/goblins/eggs/blue_goblin_egg"
+  },
+  {
+    "name": "goblin_egg",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/goblins/eggs/goblin_egg"
+  },
+  {
+    "name": "green_goblin_egg",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/goblins/eggs/green_goblin_egg"
+  },
+  {
+    "name": "red_goblin_egg",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/goblins/eggs/red_goblin_egg"
+  },
+  {
+    "name": "yellow_goblin_egg",
+    "vanilla": "paper",
+    "texture": "island_relevant/mining_3/goblins/eggs/yellow_goblin_egg"
+  },
+  {
+    "name": "aspect_of_the_leech",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/wands/aspect_of_the_leech"
+  },
+  {
+    "name": "aspect_of_the_leech_1",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/wands/aspect_of_the_leech_1"
+  },
+  {
+    "name": "aspect_of_the_leech_2",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/wands/aspect_of_the_leech_2"
+  },
+  {
+    "name": "aspect_of_the_leech_3",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/wands/aspect_of_the_leech_3"
+  },
+  {
+    "name": "staff_of_the_rising_moon",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/wands/staff_of_the_rising_moon"
+  },
+  {
+    "name": "staff_of_the_rising_moon",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/wands/staff_of_the_rising_moon_in_hand"
+  },
+  {
+    "name": "admin_sword",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/rift/weapons/admin_sword"
+  },
+  {
+    "name": "leech_sword",
+    "vanilla": "wooden_sword",
+    "texture": "island_relevant/rift/weapons/leech_sword"
+  },
+  {
+    "name": "tacticians_murder_weapon",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/rift/weapons/tacticians_murder_weapon"
+  },
+  {
+    "name": "time_shuriken",
+    "vanilla": "paper",
+    "texture": "island_relevant/rift/weapons/time_shuriken"
+  },
+  {
+    "name": "wyld_sword",
+    "vanilla": "wooden_sword",
+    "texture": "island_relevant/rift/weapons/wyld_sword"
+  },
+  {
+    "name": "steak_stake",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/zones/castle/steak_stake"
+  },
+  {
+    "name": "steak_stake",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/zones/castle/steak_stake_in_hand"
+  },
+  {
+    "name": "super_sharp_and_stabby_steak_stake",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/zones/castle/super_sharp_and_stabby_steak_stake"
+  },
+  {
+    "name": "super_sharp_and_stabby_steak_stake",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/zones/castle/super_sharp_and_stabby_steak_stake_in_hand"
+  },
+  {
+    "name": "silver_laced_karambit",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/rift/zones/castle/swords/silver_laced_karambit"
+  },
+  {
+    "name": "silver_twist_karambit",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/rift/zones/castle/swords/silver_twist_karambit"
+  },
+  {
+    "name": "self_recursive_pickaxe",
+    "vanilla": "diamond_pickaxe",
+    "texture": "island_relevant/rift/zones/cave/self_recursive_pickaxe"
+  },
+  {
+    "name": "wand_of_farming",
+    "vanilla": "stick",
+    "texture": "island_relevant/rift/zones/dreadfarm/wand_of_farming"
+  },
+  {
+    "name": "wob",
+    "vanilla": "bow",
+    "texture": "island_relevant/rift/zones/mirrorcosm/crafting_room/crafts/wob"
+  },
+  {
+    "name": "wob_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "island_relevant/rift/zones/mirrorcosm/crafting_room/crafts/wob_pulling_0"
+  },
+  {
+    "name": "wob_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "island_relevant/rift/zones/mirrorcosm/crafting_room/crafts/wob_pulling_1"
+  },
+  {
+    "name": "wob_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "island_relevant/rift/zones/mirrorcosm/crafting_room/crafts/wob_pulling_2"
+  },
+  {
+    "name": "anti_sentient_pickaxe",
+    "vanilla": "wooden_pickaxe",
+    "texture": "island_relevant/rift/zones/mountaintop/anti_sentient_pickaxe"
+  },
+  {
+    "name": "free_will",
+    "vanilla": "blaze_powder",
+    "texture": "island_relevant/rift/zones/mountaintop/misc/free_will"
+  },
+  {
+    "name": "postcard",
+    "vanilla": "painting",
+    "texture": "island_relevant/rift/zones/mountaintop/misc/postcard"
+  },
+  {
+    "name": "chrono_pickaxe",
+    "vanilla": "iron_pickaxe",
+    "texture": "island_relevant/rift/zones/mountaintop/timite_collection/chrono_pickaxe"
+  },
+  {
+    "name": "eon_pickaxe",
+    "vanilla": "golden_pickaxe",
+    "texture": "island_relevant/rift/zones/mountaintop/timite_collection/eon_pickaxe"
+  },
+  {
+    "name": "glacial_fragment",
+    "vanilla": "paper",
+    "texture": "island_relevant/winter/glacial_fragment"
+  },
+  {
+    "name": "frozen_scythe",
+    "vanilla": "stick",
+    "texture": "island_relevant/winter/weapons/frozen_scythe"
+  },
+  {
+    "name": "frozen_scythe",
+    "vanilla": "stick",
+    "texture": "island_relevant/winter/weapons/frozen_scythe_in_hand"
+  },
+  {
+    "name": "glacial_scythe",
+    "vanilla": "stick",
+    "texture": "island_relevant/winter/weapons/glacial_scythe"
+  },
+  {
+    "name": "glacial_scythe",
+    "vanilla": "stick",
+    "texture": "island_relevant/winter/weapons/glacial_scythe_in_hand"
+  },
+  {
+    "name": "ice_spray_wand",
+    "vanilla": "stick",
+    "texture": "island_relevant/winter/weapons/ice_spray_wand"
+  },
+  {
+    "name": "yeti_sword",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/winter/weapons/yeti_sword"
+  },
+  {
+    "name": "yeti_sword",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/winter/weapons/yeti_sword_in_hand"
+  },
+  {
+    "name": "yeti_sword_fragged",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/winter/weapons/yeti_sword_fragged"
+  },
+  {
+    "name": "yeti_sword_fragged",
+    "vanilla": "iron_sword",
+    "texture": "island_relevant/winter/weapons/yeti_sword_fragged_in_hand"
+  },
+  {
+    "name": "basket_of_seeds",
+    "vanilla": "paper",
+    "texture": "jacob/basket_of_seeds"
+  },
+  {
+    "name": "cactus_knife",
+    "vanilla": "iron_sword",
+    "texture": "jacob/cactus_knife"
+  },
+  {
+    "name": "cactus_knife_2",
+    "vanilla": "iron_sword",
+    "texture": "jacob/cactus_knife_2"
+  },
+  {
+    "name": "cactus_knife_3",
+    "vanilla": "iron_sword",
+    "texture": "jacob/cactus_knife_3"
+  },
+  {
+    "name": "coco_chopper",
+    "vanilla": "iron_sword",
+    "texture": "jacob/coco_chopper"
+  },
+  {
+    "name": "coco_chopper_2",
+    "vanilla": "iron_sword",
+    "texture": "jacob/coco_chopper_2"
+  },
+  {
+    "name": "coco_chopper_3",
+    "vanilla": "iron_sword",
+    "texture": "jacob/coco_chopper_3"
+  },
+  {
+    "name": "fungi_cutter",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/fungi_cutter"
+  },
+  {
+    "name": "fungi_cutter_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/fungi_cutter_2"
+  },
+  {
+    "name": "fungi_cutter_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/fungi_cutter_3"
+  },
+  {
+    "name": "theoretical_hoe_cane_1",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_cane_1"
+  },
+  {
+    "name": "theoretical_hoe_cane_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_cane_2"
+  },
+  {
+    "name": "theoretical_hoe_cane_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_cane_3"
+  },
+  {
+    "name": "theoretical_hoe_carrot_1",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_carrot_1"
+  },
+  {
+    "name": "theoretical_hoe_carrot_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_carrot_2"
+  },
+  {
+    "name": "theoretical_hoe_carrot_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_carrot_3"
+  },
+  {
+    "name": "theoretical_hoe_potato_1",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_potato_1"
+  },
+  {
+    "name": "theoretical_hoe_potato_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_potato_2"
+  },
+  {
+    "name": "theoretical_hoe_potato_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_potato_3"
+  },
+  {
+    "name": "theoretical_hoe_sunflower_1",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_sunflower_1"
+  },
+  {
+    "name": "theoretical_hoe_sunflower_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_sunflower_2"
+  },
+  {
+    "name": "theoretical_hoe_sunflower_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_sunflower_3"
+  },
+  {
+    "name": "theoretical_hoe_warts_1",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_warts_1"
+  },
+  {
+    "name": "theoretical_hoe_warts_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_warts_2"
+  },
+  {
+    "name": "theoretical_hoe_warts_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_warts_3"
+  },
+  {
+    "name": "theoretical_hoe_wheat_1",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_wheat_1"
+  },
+  {
+    "name": "theoretical_hoe_wheat_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_wheat_2"
+  },
+  {
+    "name": "theoretical_hoe_wheat_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_wheat_3"
+  },
+  {
+    "name": "theoretical_hoe_wild_rose_1",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_wild_rose_1"
+  },
+  {
+    "name": "theoretical_hoe_wild_rose_2",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_wild_rose_2"
+  },
+  {
+    "name": "theoretical_hoe_wild_rose_3",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoes/theoretical_hoe_wild_rose_3"
+  },
+  {
+    "name": "hoe_of_greater_tilling",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoe_of_greater_tilling"
+  },
+  {
+    "name": "hoe_of_great_tilling",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/hoe_of_great_tilling"
+  },
+  {
+    "name": "infinidirt_wand",
+    "vanilla": "stick",
+    "texture": "jacob/infinidirt_wand"
+  },
+  {
+    "name": "jacobs_ticket",
+    "vanilla": "paper",
+    "texture": "jacob/jacobs_ticket"
+  },
+  {
+    "name": "melon_dicer",
+    "vanilla": "iron_axe",
+    "texture": "jacob/melon_dicer"
+  },
+  {
+    "name": "nether_wart_pouch",
+    "vanilla": "paper",
+    "texture": "jacob/nether_wart_pouch"
+  },
+  {
+    "name": "prismapump",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/prismapump"
+  },
+  {
+    "name": "pumpkin_dicer",
+    "vanilla": "iron_axe",
+    "texture": "jacob/pumpkin_dicer"
+  },
+  {
+    "name": "theoretical_hoe",
+    "vanilla": "iron_hoe",
+    "texture": "jacob/theoretical_hoe"
+  },
+  {
+    "name": "bundle_of_magma_arrows",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/arrows/bundle_of_magma_arrows"
+  },
+  {
+    "name": "magma_arrow",
+    "vanilla": "arrow",
+    "texture": "slayer/blaze/arrows/magma_arrow"
+  },
+  {
+    "name": "millenia_old_blaze_ashes",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/millenia_old_blaze_ashes"
+  },
+  {
+    "name": "blaze_rod_distillate",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/minion/fuel/distillate/blaze_rod_distillate"
+  },
+  {
+    "name": "gabagool_distillate",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/minion/fuel/distillate/gabagool_distillate"
+  },
+  {
+    "name": "glowstone_distillate",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/minion/fuel/distillate/glowstone_distillate"
+  },
+  {
+    "name": "magma_cream_distillate",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/minion/fuel/distillate/magma_cream_distillate"
+  },
+  {
+    "name": "nether_wart_distillate",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/minion/fuel/distillate/nether_wart_distillate"
+  },
+  {
+    "name": "kelvin_inverter",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/pets_related/kelvin_inverter"
+  },
+  {
+    "name": "subzero_inverter",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/pets_related/subzero_inverter"
+  },
+  {
+    "name": "deathripper_dagger_crystal",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/deathripper_dagger_crystal"
+  },
+  {
+    "name": "deathripper_dagger_spirit",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/deathripper_dagger_spirit"
+  },
+  {
+    "name": "firedust_dagger_ashen",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/firedust_dagger_ashen"
+  },
+  {
+    "name": "firedust_dagger_auric",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/firedust_dagger_auric"
+  },
+  {
+    "name": "kindlebane_dagger_ashen",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/kindlebane_dagger_ashen"
+  },
+  {
+    "name": "kindlebane_dagger_auric",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/kindlebane_dagger_auric"
+  },
+  {
+    "name": "mawdredge_dagger_crystal",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/mawdredge_dagger_crystal"
+  },
+  {
+    "name": "mawdredge_dagger_spirit",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/mawdredge_dagger_spirit"
+  },
+  {
+    "name": "pyrochaos_dagger_ashen",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/pyrochaos_dagger_ashen"
+  },
+  {
+    "name": "pyrochaos_dagger_auric",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/pyrochaos_dagger_auric"
+  },
+  {
+    "name": "twilight_dagger_crystal",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/twilight_dagger_crystal"
+  },
+  {
+    "name": "twilight_dagger_spirit",
+    "vanilla": "iron_sword",
+    "texture": "slayer/blaze/swords/twilight_dagger_spirit"
+  },
+  {
+    "name": "amalgamated_crimsonite",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/tokens/amalgamated_crimsonite"
+  },
+  {
+    "name": "derelict_ashe",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/tokens/derelict_ashe"
+  },
+  {
+    "name": "molten_powder",
+    "vanilla": "blaze_powder",
+    "texture": "slayer/blaze/tokens/molten_powder"
+  },
+  {
+    "name": "whipped_magma_cream",
+    "vanilla": "paper",
+    "texture": "slayer/blaze/whipped_magma_cream"
+  },
+  {
+    "name": "aspect_of_the_void",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/aspect_of_the_void"
+  },
+  {
+    "name": "null_atom",
+    "vanilla": "paper",
+    "texture": "slayer/enderman/crafts/null_atom"
+  },
+  {
+    "name": "null_blade",
+    "vanilla": "shears",
+    "texture": "slayer/enderman/crafts/null_blade"
+  },
+  {
+    "name": "null_edge",
+    "vanilla": "stick",
+    "texture": "slayer/enderman/crafts/null_edge"
+  },
+  {
+    "name": "null_ovoid",
+    "vanilla": "paper",
+    "texture": "slayer/enderman/null_ovoid"
+  },
+  {
+    "name": "null_sphere",
+    "vanilla": "paper",
+    "texture": "slayer/enderman/null_sphere"
+  },
+  {
+    "name": "soulflow",
+    "vanilla": "paper",
+    "texture": "slayer/enderman/soulflow"
+  },
+  {
+    "name": "gyrokinetic_wand",
+    "vanilla": "blaze_rod",
+    "texture": "slayer/enderman/support_items/gyrokinetic_wand"
+  },
+  {
+    "name": "twilight_arrow_poison",
+    "vanilla": "paper",
+    "texture": "slayer/enderman/twilight_arrow_poison"
+  },
+  {
+    "name": "juju_shortbow",
+    "vanilla": "bow",
+    "texture": "slayer/enderman/weapons/juju_shortbow"
+  },
+  {
+    "name": "juju_shortbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "slayer/enderman/weapons/juju_shortbow_pulling_0"
+  },
+  {
+    "name": "juju_shortbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "slayer/enderman/weapons/juju_shortbow_pulling_1"
+  },
+  {
+    "name": "juju_shortbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "slayer/enderman/weapons/juju_shortbow_pulling_2"
+  },
+  {
+    "name": "atomsplit_katana",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/atomsplit_katana"
+  },
+  {
+    "name": "atomsplit_katana",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/atomsplit_katana_in_hand"
+  },
+  {
+    "name": "atomsplit_katana_ability",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/atomsplit_katana_ability"
+  },
+  {
+    "name": "atomsplit_katana_ability",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/atomsplit_katana_ability_in_hand"
+  },
+  {
+    "name": "voidedge_katana",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/voidedge_katana"
+  },
+  {
+    "name": "voidedge_katana",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/voidedge_katana_in_hand"
+  },
+  {
+    "name": "voidedge_katana_ability",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/voidedge_katana_ability"
+  },
+  {
+    "name": "voidedge_katana_ability",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/voidedge_katana_ability_in_hand"
+  },
+  {
+    "name": "voidwalker_katana",
+    "vanilla": "iron_sword",
+    "texture": "slayer/enderman/weapons/katanas/voidwalker_katana"
+  },
+  {
+    "name": "voidwalker_katana",
+    "vanilla": "iron_sword",
+    "texture": "slayer/enderman/weapons/katanas/voidwalker_katana_in_hand"
+  },
+  {
+    "name": "vorpal_katana",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/vorpal_katana"
+  },
+  {
+    "name": "vorpal_katana",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/vorpal_katana_in_hand"
+  },
+  {
+    "name": "vorpal_katana_ability",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/vorpal_katana_ability"
+  },
+  {
+    "name": "vorpal_katana_ability",
+    "vanilla": "diamond_sword",
+    "texture": "slayer/enderman/weapons/katanas/vorpal_katana_ability_in_hand"
+  },
+  {
+    "name": "sinseeker_scythe",
+    "vanilla": "stick",
+    "texture": "slayer/enderman/weapons/sinseeker_scythe"
+  },
+  {
+    "name": "sinseeker_scythe",
+    "vanilla": "stick",
+    "texture": "slayer/enderman/weapons/sinseeker_scythe_in_hand"
+  },
+  {
+    "name": "terminator",
+    "vanilla": "bow",
+    "texture": "slayer/enderman/weapons/terminator"
+  },
+  {
+    "name": "terminator_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "slayer/enderman/weapons/terminator_pulling_0"
+  },
+  {
+    "name": "terminator_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "slayer/enderman/weapons/terminator_pulling_1"
+  },
+  {
+    "name": "terminator_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "slayer/enderman/weapons/terminator_pulling_2"
+  },
+  {
+    "name": "fly_swatter",
+    "vanilla": "golden_shovel",
+    "texture": "slayer/spider/fly_swatter"
+  },
+  {
+    "name": "spider_catalyst",
+    "vanilla": "paper",
+    "texture": "slayer/spider/spider_catalyst"
+  },
+  {
+    "name": "tarantula_silk",
+    "vanilla": "paper",
+    "texture": "slayer/spider/tarantula_silk"
+  },
+  {
+    "name": "tarantula_web",
+    "vanilla": "string",
+    "texture": "slayer/spider/tarantula_web"
+  },
+  {
+    "name": "toxic_arrow_poison",
+    "vanilla": "paper",
+    "texture": "slayer/spider/toxic_arrow_poison"
+  },
+  {
+    "name": "mosquito_shortbow",
+    "vanilla": "bow",
+    "texture": "slayer/spider/weapons/mosquito_shortbow"
+  },
+  {
+    "name": "mosquito_shortbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "slayer/spider/weapons/mosquito_shortbow_pulling_0"
+  },
+  {
+    "name": "mosquito_shortbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "slayer/spider/weapons/mosquito_shortbow_pulling_1"
+  },
+  {
+    "name": "mosquito_shortbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "slayer/spider/weapons/mosquito_shortbow_pulling_2"
+  },
+  {
+    "name": "recluse_fang",
+    "vanilla": "iron_sword",
+    "texture": "slayer/spider/weapons/recluse_fang"
+  },
+  {
+    "name": "scorpion_foil",
+    "vanilla": "wooden_sword",
+    "texture": "slayer/spider/weapons/scorpion_foil"
+  },
+  {
+    "name": "spider_shortbow",
+    "vanilla": "bow",
+    "texture": "slayer/spider/weapons/spider_shortbow"
+  },
+  {
+    "name": "spider_shortbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "slayer/spider/weapons/spider_shortbow_pulling_0"
+  },
+  {
+    "name": "spider_shortbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "slayer/spider/weapons/spider_shortbow_pulling_1"
+  },
+  {
+    "name": "spider_shortbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "slayer/spider/weapons/spider_shortbow_pulling_2"
+  },
+  {
+    "name": "sting",
+    "vanilla": "iron_sword",
+    "texture": "slayer/spider/weapons/sting"
+  },
+  {
+    "name": "tarantula_fang",
+    "vanilla": "stone_sword",
+    "texture": "slayer/spider/weapons/tarantula_fang"
+  },
+  {
+    "name": "golden_tooth",
+    "vanilla": "gold_nugget",
+    "texture": "slayer/wolf/golden_tooth"
+  },
+  {
+    "name": "edible_mace",
+    "vanilla": "iron_axe",
+    "texture": "slayer/wolf/weapons/edible_mace"
+  },
+  {
+    "name": "pooch_sword",
+    "vanilla": "iron_sword",
+    "texture": "slayer/wolf/weapons/pooch_sword"
+  },
+  {
+    "name": "shaman_sword",
+    "vanilla": "iron_sword",
+    "texture": "slayer/wolf/weapons/shaman_sword"
+  },
+  {
+    "name": "weirder_tuba",
+    "vanilla": "paper",
+    "texture": "slayer/wolf/weirder_tuba"
+  },
+  {
+    "name": "weird_tuba",
+    "vanilla": "paper",
+    "texture": "slayer/wolf/weird_tuba"
+  },
+  {
+    "name": "wolf_tooth",
+    "vanilla": "ghast_tear",
+    "texture": "slayer/wolf/wolf_tooth"
+  },
+  {
+    "name": "revenant_catalyst",
+    "vanilla": "paper",
+    "texture": "slayer/zombie/catalysts/revenant_catalyst"
+  },
+  {
+    "name": "undead_catalyst",
+    "vanilla": "paper",
+    "texture": "slayer/zombie/catalysts/undead_catalyst"
+  },
+  {
+    "name": "revenant_flesh",
+    "vanilla": "rotten_flesh",
+    "texture": "slayer/zombie/revenant_flesh"
+  },
+  {
+    "name": "revenant_viscera",
+    "vanilla": "paper",
+    "texture": "slayer/zombie/revenant_viscera"
+  },
+  {
+    "name": "wand_of_atonement",
+    "vanilla": "stick",
+    "texture": "slayer/zombie/wands/wand_of_atonement"
+  },
+  {
+    "name": "wand_of_healing",
+    "vanilla": "stick",
+    "texture": "slayer/zombie/wands/wand_of_healing"
+  },
+  {
+    "name": "wand_of_mending",
+    "vanilla": "stick",
+    "texture": "slayer/zombie/wands/wand_of_mending"
+  },
+  {
+    "name": "wand_of_restoration",
+    "vanilla": "stick",
+    "texture": "slayer/zombie/wands/wand_of_restoration"
+  },
+  {
+    "name": "halberd_of_the_shredded",
+    "vanilla": "iron_sword",
+    "texture": "slayer/zombie/weapons/halberd_of_the_shredded"
+  },
+  {
+    "name": "halberd_of_the_shredded",
+    "vanilla": "iron_sword",
+    "texture": "slayer/zombie/weapons/halberd_of_the_shredded_in_hand"
+  },
+  {
+    "name": "reaper_falchion",
+    "vanilla": "iron_sword",
+    "texture": "slayer/zombie/weapons/reaper_falchion"
+  },
+  {
+    "name": "reaper_scythe",
+    "vanilla": "stick",
+    "texture": "slayer/zombie/weapons/reaper_scythe"
+  },
+  {
+    "name": "reaper_scythe",
+    "vanilla": "stick",
+    "texture": "slayer/zombie/weapons/reaper_scythe_in_hand"
+  },
+  {
+    "name": "revenant_falchion",
+    "vanilla": "iron_sword",
+    "texture": "slayer/zombie/weapons/revenant_falchion"
+  },
+  {
+    "name": "stranded_treecapitator",
+    "vanilla": "golden_axe",
+    "texture": "stranded_only/stranded_treecapitator"
+  },
+  {
+    "name": "absolute_ender_pearl",
+    "vanilla": "paper",
+    "texture": "uncategorized/absolute_ender_pearl"
+  },
+  {
+    "name": "abysmal_lasso",
+    "vanilla": "paper",
+    "texture": "uncategorized/abysmal_lasso"
+  },
+  {
+    "name": "adaptive_blade",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/adaptive_blade"
+  },
+  {
+    "name": "adaptive_blade_fragged",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/adaptive_blade_fragged"
+  },
+  {
+    "name": "admin_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/admin_bow"
+  },
+  {
+    "name": "admin_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/admin_bow_pulling_0"
+  },
+  {
+    "name": "admin_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/admin_bow_pulling_1"
+  },
+  {
+    "name": "admin_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/admin_bow_pulling_2"
+  },
+  {
+    "name": "alchemists_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/alchemists_staff"
+  },
+  {
+    "name": "alchemists_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/alchemists_staff_in_hand"
+  },
+  {
+    "name": "alpha_pick",
+    "vanilla": "wooden_pickaxe",
+    "texture": "uncategorized/alpha_pick"
+  },
+  {
+    "name": "amber_crystal",
+    "vanilla": "paper",
+    "texture": "uncategorized/amber_crystal"
+  },
+  {
+    "name": "amber_polished_drill_engine",
+    "vanilla": "paper",
+    "texture": "uncategorized/amber_polished_drill_engine"
+  },
+  {
+    "name": "amethyst_crystal",
+    "vanilla": "paper",
+    "texture": "uncategorized/amethyst_crystal"
+  },
+  {
+    "name": "ancient_rose",
+    "vanilla": "paper",
+    "texture": "uncategorized/ancient_rose"
+  },
+  {
+    "name": "armorshred_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/armorshred_arrow"
+  },
+  {
+    "name": "arrow_swapper",
+    "vanilla": "arrow",
+    "texture": "uncategorized/arrow_swapper"
+  },
+  {
+    "name": "artisanal_shortbow",
+    "vanilla": "bow",
+    "texture": "uncategorized/artisanal_shortbow"
+  },
+  {
+    "name": "artisanal_shortbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/artisanal_shortbow_pulling_0"
+  },
+  {
+    "name": "artisanal_shortbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/artisanal_shortbow_pulling_1"
+  },
+  {
+    "name": "artisanal_shortbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/artisanal_shortbow_pulling_2"
+  },
+  {
+    "name": "ascension_rope",
+    "vanilla": "paper",
+    "texture": "uncategorized/ascension_rope"
+  },
+  {
+    "name": "aspect_of_the_dragon",
+    "vanilla": "diamond_sword",
+    "texture": "uncategorized/aspect_of_the_dragon"
+  },
+  {
+    "name": "aspect_of_the_end",
+    "vanilla": "diamond_sword",
+    "texture": "uncategorized/aspect_of_the_end"
+  },
+  {
+    "name": "aspect_of_the_jerry",
+    "vanilla": "wooden_sword",
+    "texture": "uncategorized/aspect_of_the_jerry"
+  },
+  {
+    "name": "astraea",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/astraea"
+  },
+  {
+    "name": "astraea",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/astraea_in_hand"
+  },
+  {
+    "name": "aurora_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/aurora_staff"
+  },
+  {
+    "name": "aurora_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/aurora_staff_in_hand"
+  },
+  {
+    "name": "bandaged_mithril_pickaxe",
+    "vanilla": "stone_pickaxe",
+    "texture": "uncategorized/bandaged_mithril_pickaxe"
+  },
+  {
+    "name": "bejeweled_handle",
+    "vanilla": "stick",
+    "texture": "uncategorized/bejeweled_handle"
+  },
+  {
+    "name": "bezos",
+    "vanilla": "paper",
+    "texture": "uncategorized/bezos"
+  },
+  {
+    "name": "bigfoots_bola",
+    "vanilla": "paper",
+    "texture": "uncategorized/bigfoots_bola"
+  },
+  {
+    "name": "biofuel",
+    "vanilla": "paper",
+    "texture": "uncategorized/biofuel"
+  },
+  {
+    "name": "blade_of_the_volcano",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/blade_of_the_volcano"
+  },
+  {
+    "name": "blaze_ashes",
+    "vanilla": "paper",
+    "texture": "uncategorized/blaze_ashes"
+  },
+  {
+    "name": "bob_omb",
+    "vanilla": "paper",
+    "texture": "uncategorized/bob_omb"
+  },
+  {
+    "name": "bouncy_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/bouncy_arrow"
+  },
+  {
+    "name": "burning_eye",
+    "vanilla": "paper",
+    "texture": "uncategorized/burning_eye"
+  },
+  {
+    "name": "carnival_rod",
+    "vanilla": "fishing_rod",
+    "texture": "uncategorized/carnival_rod"
+  },
+  {
+    "name": "carnival_rod_cast",
+    "vanilla": "fishing_rod_cast",
+    "texture": "uncategorized/carnival_rod_cast"
+  },
+  {
+    "name": "carnival_shovel",
+    "vanilla": "iron_shovel",
+    "texture": "uncategorized/carnival_shovel"
+  },
+  {
+    "name": "celeste_wand",
+    "vanilla": "stick",
+    "texture": "uncategorized/celeste_wand"
+  },
+  {
+    "name": "chicken_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/chicken_axe"
+  },
+  {
+    "name": "cleaver",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/cleaver"
+  },
+  {
+    "name": "compact_ooze",
+    "vanilla": "paper",
+    "texture": "uncategorized/compact_ooze"
+  },
+  {
+    "name": "concentrated_stone",
+    "vanilla": "paper",
+    "texture": "uncategorized/concentrated_stone"
+  },
+  {
+    "name": "conjuring",
+    "vanilla": "stone_sword",
+    "texture": "uncategorized/conjuring"
+  },
+  {
+    "name": "control_switch",
+    "vanilla": "paper",
+    "texture": "uncategorized/control_switch"
+  },
+  {
+    "name": "corleonite",
+    "vanilla": "paper",
+    "texture": "uncategorized/corleonite"
+  },
+  {
+    "name": "corrupted_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/corrupted_fragment"
+  },
+  {
+    "name": "cow_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/cow_axe"
+  },
+  {
+    "name": "crystal_fragment",
+    "vanilla": "quartz",
+    "texture": "uncategorized/crystal_fragment"
+  },
+  {
+    "name": "cup_of_blood",
+    "vanilla": "paper",
+    "texture": "uncategorized/cup_of_blood"
+  },
+  {
+    "name": "dark_claymore",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/dark_claymore"
+  },
+  {
+    "name": "dark_claymore",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/dark_claymore_in_hand"
+  },
+  {
+    "name": "death_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/death_bow"
+  },
+  {
+    "name": "death_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/death_bow_pulling_0"
+  },
+  {
+    "name": "death_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/death_bow_pulling_1"
+  },
+  {
+    "name": "death_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/death_bow_pulling_2"
+  },
+  {
+    "name": "decent_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/decent_bow"
+  },
+  {
+    "name": "decent_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/decent_bow_pulling_0"
+  },
+  {
+    "name": "decent_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/decent_bow_pulling_1"
+  },
+  {
+    "name": "decent_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/decent_bow_pulling_2"
+  },
+  {
+    "name": "decoy",
+    "vanilla": "paper",
+    "texture": "uncategorized/decoy"
+  },
+  {
+    "name": "diamantes_handle",
+    "vanilla": "paper",
+    "texture": "uncategorized/diamantes_handle"
+  },
+  {
+    "name": "digested_mushrooms",
+    "vanilla": "paper",
+    "texture": "uncategorized/digested_mushrooms"
+  },
+  {
+    "name": "divans_alloy",
+    "vanilla": "paper",
+    "texture": "uncategorized/divans_alloy"
+  },
+  {
+    "name": "divans_drill_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/divans_drill_handle"
+  },
+  {
+    "name": "divans_drill_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/divans_drill_head"
+  },
+  {
+    "name": "divans_drill_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/divans_drill_head_animated"
+  },
+  {
+    "name": "divan_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/divan_fragment"
+  },
+  {
+    "name": "dreadlord_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/dreadlord_sword"
+  },
+  {
+    "name": "drill_motor",
+    "vanilla": "paper",
+    "texture": "uncategorized/drill_motor"
+  },
+  {
+    "name": "drop_arrows",
+    "vanilla": "paper",
+    "texture": "uncategorized/drop_arrows"
+  },
+  {
+    "name": "dungeon_chest_key",
+    "vanilla": "paper",
+    "texture": "uncategorized/dungeon_chest_key"
+  },
+  {
+    "name": "earth_shard",
+    "vanilla": "stone_sword",
+    "texture": "uncategorized/earth_shard"
+  },
+  {
+    "name": "efficient_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/efficient_axe"
+  },
+  {
+    "name": "electron_transmitter",
+    "vanilla": "paper",
+    "texture": "uncategorized/electron_transmitter"
+  },
+  {
+    "name": "ember_rod",
+    "vanilla": "blaze_rod",
+    "texture": "uncategorized/ember_rod"
+  },
+  {
+    "name": "emerald_blade",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/emerald_blade"
+  },
+  {
+    "name": "emerald_tipped_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/emerald_tipped_arrow"
+  },
+  {
+    "name": "emperors_skull",
+    "vanilla": "paper",
+    "texture": "uncategorized/emperors_skull"
+  },
+  {
+    "name": "enchanted_mycelium_cube",
+    "vanilla": "paper",
+    "texture": "uncategorized/enchanted_mycelium_cube"
+  },
+  {
+    "name": "enchanted_red_sand_cube",
+    "vanilla": "paper",
+    "texture": "uncategorized/enchanted_red_sand_cube"
+  },
+  {
+    "name": "enchanted_sulphur_cube",
+    "vanilla": "glowstone_dust",
+    "texture": "uncategorized/enchanted_sulphur_cube"
+  },
+  {
+    "name": "enrager",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/enrager"
+  },
+  {
+    "name": "everburning_flame",
+    "vanilla": "paper",
+    "texture": "uncategorized/everburning_flame"
+  },
+  {
+    "name": "explosive_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/explosive_arrow"
+  },
+  {
+    "name": "explosive_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/explosive_bow"
+  },
+  {
+    "name": "explosive_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/explosive_bow_pulling_0"
+  },
+  {
+    "name": "explosive_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/explosive_bow_pulling_1"
+  },
+  {
+    "name": "explosive_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/explosive_bow_pulling_2"
+  },
+  {
+    "name": "fancy_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/fancy_sword"
+  },
+  {
+    "name": "fel_pearl",
+    "vanilla": "ender_pearl",
+    "texture": "uncategorized/fel_pearl"
+  },
+  {
+    "name": "fel_sword",
+    "vanilla": "stone_sword",
+    "texture": "uncategorized/fel_sword"
+  },
+  {
+    "name": "fire_freeze_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/fire_freeze_staff"
+  },
+  {
+    "name": "fire_freeze_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/fire_freeze_staff_in_hand"
+  },
+  {
+    "name": "fire_fury_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/fire_fury_staff"
+  },
+  {
+    "name": "fire_fury_staff",
+    "vanilla": "stick",
+    "texture": "uncategorized/fire_fury_staff_in_hand"
+  },
+  {
+    "name": "fire_veil_wand",
+    "vanilla": "blaze_rod",
+    "texture": "uncategorized/fire_veil_wand"
+  },
+  {
+    "name": "flames",
+    "vanilla": "blaze_powder",
+    "texture": "uncategorized/flames"
+  },
+  {
+    "name": "flaming_heart",
+    "vanilla": "paper",
+    "texture": "uncategorized/flaming_heart"
+  },
+  {
+    "name": "flaming_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/flaming_sword"
+  },
+  {
+    "name": "flint_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/flint_arrow"
+  },
+  {
+    "name": "flint_shovel",
+    "vanilla": "iron_shovel",
+    "texture": "uncategorized/flint_shovel"
+  },
+  {
+    "name": "florid_zombie_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/florid_zombie_sword"
+  },
+  {
+    "name": "flower_of_truth",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/flower_of_truth"
+  },
+  {
+    "name": "fractured_mithril_pickaxe",
+    "vanilla": "stone_pickaxe",
+    "texture": "uncategorized/fractured_mithril_pickaxe"
+  },
+  {
+    "name": "ftx_3070",
+    "vanilla": "paper",
+    "texture": "uncategorized/ftx_3070"
+  },
+  {
+    "name": "fuel_canister",
+    "vanilla": "paper",
+    "texture": "uncategorized/fuel_canister"
+  },
+  {
+    "name": "gazing_pearl",
+    "vanilla": "paper",
+    "texture": "uncategorized/gazing_pearl"
+  },
+  {
+    "name": "gemstone_drill_lt_522_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/gemstone_drill_lt_522_handle"
+  },
+  {
+    "name": "gemstone_drill_lt_522_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/gemstone_drill_lt_522_head"
+  },
+  {
+    "name": "gemstone_drill_lt_522_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/gemstone_drill_lt_522_head_animated"
+  },
+  {
+    "name": "gemstone_fuel_tank",
+    "vanilla": "paper",
+    "texture": "uncategorized/gemstone_fuel_tank"
+  },
+  {
+    "name": "gemstone_mixture",
+    "vanilla": "paper",
+    "texture": "uncategorized/gemstone_mixture"
+  },
+  {
+    "name": "giants_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/giants_sword"
+  },
+  {
+    "name": "giants_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/giants_sword_in_hand"
+  },
+  {
+    "name": "giant_cleaver",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/giant_cleaver"
+  },
+  {
+    "name": "giant_cleaver",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/giant_cleaver_in_hand"
+  },
+  {
+    "name": "glacite_jewel",
+    "vanilla": "paper",
+    "texture": "uncategorized/glacite_jewel"
+  },
+  {
+    "name": "glue_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/glue_arrow"
+  },
+  {
+    "name": "golden_bait",
+    "vanilla": "paper",
+    "texture": "uncategorized/golden_bait"
+  },
+  {
+    "name": "golden_plate",
+    "vanilla": "paper",
+    "texture": "uncategorized/golden_plate"
+  },
+  {
+    "name": "golden_powder",
+    "vanilla": "glowstone_dust",
+    "texture": "uncategorized/golden_powder"
+  },
+  {
+    "name": "gold_tipped_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/gold_tipped_arrow"
+  },
+  {
+    "name": "golem_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/golem_sword"
+  },
+  {
+    "name": "hallowed_skull",
+    "vanilla": "paper",
+    "texture": "uncategorized/hallowed_skull"
+  },
+  {
+    "name": "healing_tissue",
+    "vanilla": "rotten_flesh",
+    "texture": "uncategorized/healing_tissue"
+  },
+  {
+    "name": "heavy_pearl",
+    "vanilla": "paper",
+    "texture": "uncategorized/heavy_pearl"
+  },
+  {
+    "name": "hellstorm_wand",
+    "vanilla": "stick",
+    "texture": "uncategorized/hellstorm_wand"
+  },
+  {
+    "name": "hilt_of_true_ice",
+    "vanilla": "paper",
+    "texture": "uncategorized/hilt_of_true_ice"
+  },
+  {
+    "name": "hoe_of_no_tilling",
+    "vanilla": "iron_hoe",
+    "texture": "uncategorized/hoe_of_no_tilling"
+  },
+  {
+    "name": "holy_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/holy_dragon_fragment"
+  },
+  {
+    "name": "horn_of_taurus",
+    "vanilla": "paper",
+    "texture": "uncategorized/horn_of_taurus"
+  },
+  {
+    "name": "hunk_of_blue_ice",
+    "vanilla": "paper",
+    "texture": "uncategorized/hunk_of_blue_ice"
+  },
+  {
+    "name": "hunk_of_ice",
+    "vanilla": "paper",
+    "texture": "uncategorized/hunk_of_ice"
+  },
+  {
+    "name": "hunters_knife",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/hunters_knife"
+  },
+  {
+    "name": "hurricane_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/hurricane_bow"
+  },
+  {
+    "name": "hurricane_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/hurricane_bow_pulling_0"
+  },
+  {
+    "name": "hurricane_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/hurricane_bow_pulling_1"
+  },
+  {
+    "name": "hurricane_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/hurricane_bow_pulling_2"
+  },
+  {
+    "name": "hyperion",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/hyperion"
+  },
+  {
+    "name": "hyperion",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/hyperion_in_hand"
+  },
+  {
+    "name": "hyper_cleaver",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/hyper_cleaver"
+  },
+  {
+    "name": "hyper_cleaver",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/hyper_cleaver_in_hand"
+  },
+  {
+    "name": "icy_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/icy_arrow"
+  },
+  {
+    "name": "infinivacuum",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/infinivacuum"
+  },
+  {
+    "name": "infinivacuum_hooverius",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/infinivacuum_hooverius"
+  },
+  {
+    "name": "inflatable_jerry",
+    "vanilla": "paper",
+    "texture": "uncategorized/inflatable_jerry"
+  },
+  {
+    "name": "ink_wand",
+    "vanilla": "stick",
+    "texture": "uncategorized/ink_wand"
+  },
+  {
+    "name": "jade_crystal",
+    "vanilla": "paper",
+    "texture": "uncategorized/jade_crystal"
+  },
+  {
+    "name": "jasper_crystal",
+    "vanilla": "paper",
+    "texture": "uncategorized/jasper_crystal"
+  },
+  {
+    "name": "jasper_drill_x_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/jasper_drill_x_handle"
+  },
+  {
+    "name": "jasper_drill_x_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/jasper_drill_x_head"
+  },
+  {
+    "name": "jasper_drill_x_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/jasper_drill_x_head_animated"
+  },
+  {
+    "name": "jelly",
+    "vanilla": "paper",
+    "texture": "uncategorized/jelly"
+  },
+  {
+    "name": "jolly_pink_rock",
+    "vanilla": "paper",
+    "texture": "uncategorized/jolly_pink_rock"
+  },
+  {
+    "name": "jungle_heart",
+    "vanilla": "paper",
+    "texture": "uncategorized/jungle_heart"
+  },
+  {
+    "name": "jungle_key",
+    "vanilla": "tripwire_hook",
+    "texture": "uncategorized/jungle_key"
+  },
+  {
+    "name": "jungle_pickaxe",
+    "vanilla": "wooden_pickaxe",
+    "texture": "uncategorized/jungle_pickaxe"
+  },
+  {
+    "name": "kada_lead",
+    "vanilla": "paper",
+    "texture": "uncategorized/kada_lead"
+  },
+  {
+    "name": "kuudra_teeth",
+    "vanilla": "paper",
+    "texture": "uncategorized/kuudra_teeth"
+  },
+  {
+    "name": "lapis_pickaxe",
+    "vanilla": "diamond_pickaxe",
+    "texture": "uncategorized/lapis_pickaxe"
+  },
+  {
+    "name": "lasr_eye",
+    "vanilla": "paper",
+    "texture": "uncategorized/lasr_eye"
+  },
+  {
+    "name": "last_breath",
+    "vanilla": "bow",
+    "texture": "uncategorized/last_breath"
+  },
+  {
+    "name": "last_breath_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/last_breath_pulling_0"
+  },
+  {
+    "name": "last_breath_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/last_breath_pulling_1"
+  },
+  {
+    "name": "last_breath_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/last_breath_pulling_2"
+  },
+  {
+    "name": "lava_shell",
+    "vanilla": "paper",
+    "texture": "uncategorized/lava_shell"
+  },
+  {
+    "name": "leaping_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/leaping_sword"
+  },
+  {
+    "name": "leather_cloth",
+    "vanilla": "leather",
+    "texture": "uncategorized/leather_cloth"
+  },
+  {
+    "name": "livid_dagger",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/livid_dagger"
+  },
+  {
+    "name": "lumino_fiber",
+    "vanilla": "string",
+    "texture": "uncategorized/lumino_fiber"
+  },
+  {
+    "name": "lump_of_magma",
+    "vanilla": "paper",
+    "texture": "uncategorized/lump_of_magma"
+  },
+  {
+    "name": "machine_gun_shortbow",
+    "vanilla": "bow",
+    "texture": "uncategorized/machine_gun_shortbow"
+  },
+  {
+    "name": "machine_gun_shortbow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/machine_gun_shortbow_pulling_0"
+  },
+  {
+    "name": "machine_gun_shortbow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/machine_gun_shortbow_pulling_1"
+  },
+  {
+    "name": "machine_gun_shortbow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/machine_gun_shortbow_pulling_2"
+  },
+  {
+    "name": "magmag",
+    "vanilla": "paper",
+    "texture": "uncategorized/magmag"
+  },
+  {
+    "name": "magma_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/magma_bow"
+  },
+  {
+    "name": "magma_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/magma_bow_pulling_0"
+  },
+  {
+    "name": "magma_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/magma_bow_pulling_1"
+  },
+  {
+    "name": "magma_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/magma_bow_pulling_2"
+  },
+  {
+    "name": "magma_bucket",
+    "vanilla": "bucket",
+    "texture": "uncategorized/magma_bucket"
+  },
+  {
+    "name": "magma_chunk",
+    "vanilla": "paper",
+    "texture": "uncategorized/magma_chunk"
+  },
+  {
+    "name": "magma_core",
+    "vanilla": "magma_cream",
+    "texture": "uncategorized/magma_core"
+  },
+  {
+    "name": "magma_lord_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/magma_lord_fragment"
+  },
+  {
+    "name": "match_sticks",
+    "vanilla": "paper",
+    "texture": "uncategorized/match_sticks"
+  },
+  {
+    "name": "mercenary_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/mercenary_sword"
+  },
+  {
+    "name": "midas_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/midas_sword"
+  },
+  {
+    "name": "midas_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/midas_sword_in_hand"
+  },
+  {
+    "name": "midas_sword_fragged",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/midas_sword_fragged"
+  },
+  {
+    "name": "midas_sword_fragged",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/midas_sword_fragged_in_hand"
+  },
+  {
+    "name": "mimic_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/mimic_fragment"
+  },
+  {
+    "name": "mithril",
+    "vanilla": "paper",
+    "texture": "uncategorized/mithril"
+  },
+  {
+    "name": "mithril_drill_sx_r226_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/mithril_drill_sx_r226_handle"
+  },
+  {
+    "name": "mithril_drill_sx_r226_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/mithril_drill_sx_r226_head"
+  },
+  {
+    "name": "mithril_drill_sx_r226_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/mithril_drill_sx_r226_head_animated"
+  },
+  {
+    "name": "mithril_drill_sx_r326_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/mithril_drill_sx_r326_handle"
+  },
+  {
+    "name": "mithril_drill_sx_r326_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/mithril_drill_sx_r326_head"
+  },
+  {
+    "name": "mithril_drill_sx_r326_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/mithril_drill_sx_r326_head_animated"
+  },
+  {
+    "name": "mithril_infused_fuel_tank",
+    "vanilla": "paper",
+    "texture": "uncategorized/mithril_infused_fuel_tank"
+  },
+  {
+    "name": "mithril_pickaxe",
+    "vanilla": "stone_pickaxe",
+    "texture": "uncategorized/mithril_pickaxe"
+  },
+  {
+    "name": "mithril_plate",
+    "vanilla": "paper",
+    "texture": "uncategorized/mithril_plate"
+  },
+  {
+    "name": "mithril_plated_drill_engine",
+    "vanilla": "paper",
+    "texture": "uncategorized/mithril_plated_drill_engine"
+  },
+  {
+    "name": "moogma_pelt",
+    "vanilla": "leather",
+    "texture": "uncategorized/moogma_pelt"
+  },
+  {
+    "name": "mushroom_cow_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/mushroom_cow_axe"
+  },
+  {
+    "name": "mutant_nether_wart",
+    "vanilla": "paper",
+    "texture": "uncategorized/mutant_nether_wart"
+  },
+  {
+    "name": "mutated_blaze_ashes",
+    "vanilla": "paper",
+    "texture": "uncategorized/mutated_blaze_ashes"
+  },
+  {
+    "name": "nansorb_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/nansorb_arrow"
+  },
+  {
+    "name": "necromancers_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/necromancers_sword"
+  },
+  {
+    "name": "necrons_blade",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/necrons_blade"
+  },
+  {
+    "name": "necrons_blade",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/necrons_blade_in_hand"
+  },
+  {
+    "name": "oil_barrel",
+    "vanilla": "paper",
+    "texture": "uncategorized/oil_barrel"
+  },
+  {
+    "name": "old_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/old_dragon_fragment"
+  },
+  {
+    "name": "orb_of_energy",
+    "vanilla": "paper",
+    "texture": "uncategorized/orb_of_energy"
+  },
+  {
+    "name": "ornate_zombie_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/ornate_zombie_sword"
+  },
+  {
+    "name": "perfectly_cut_fuel_tank",
+    "vanilla": "paper",
+    "texture": "uncategorized/perfectly_cut_fuel_tank"
+  },
+  {
+    "name": "pickonimbus_2000",
+    "vanilla": "diamond_pickaxe",
+    "texture": "uncategorized/pickonimbus_2000"
+  },
+  {
+    "name": "pigman_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/pigman_sword"
+  },
+  {
+    "name": "pig_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/pig_axe"
+  },
+  {
+    "name": "plasma",
+    "vanilla": "paper",
+    "texture": "uncategorized/plasma"
+  },
+  {
+    "name": "plasma_bucket",
+    "vanilla": "bucket",
+    "texture": "uncategorized/plasma_bucket"
+  },
+  {
+    "name": "polished_pumpkin",
+    "vanilla": "paper",
+    "texture": "uncategorized/polished_pumpkin"
+  },
+  {
+    "name": "polished_titanium_pickaxe",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/polished_titanium_pickaxe"
+  },
+  {
+    "name": "precursor_apparatus",
+    "vanilla": "paper",
+    "texture": "uncategorized/precursor_apparatus"
+  },
+  {
+    "name": "prehistoric_egg",
+    "vanilla": "paper",
+    "texture": "uncategorized/prehistoric_egg"
+  },
+  {
+    "name": "prismarine_blade",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/prismarine_blade"
+  },
+  {
+    "name": "prismarine_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/prismarine_bow"
+  },
+  {
+    "name": "prismarine_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/prismarine_bow_pulling_0"
+  },
+  {
+    "name": "prismarine_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/prismarine_bow_pulling_1"
+  },
+  {
+    "name": "prismarine_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/prismarine_bow_pulling_2"
+  },
+  {
+    "name": "promising_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/promising_axe"
+  },
+  {
+    "name": "promising_hoe",
+    "vanilla": "iron_hoe",
+    "texture": "uncategorized/promising_hoe"
+  },
+  {
+    "name": "promising_pickaxe",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/promising_pickaxe"
+  },
+  {
+    "name": "promising_shovel",
+    "vanilla": "iron_shovel",
+    "texture": "uncategorized/promising_shovel"
+  },
+  {
+    "name": "protector_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/protector_dragon_fragment"
+  },
+  {
+    "name": "pyroclastic_scale",
+    "vanilla": "prismarine_shard",
+    "texture": "uncategorized/pyroclastic_scale"
+  },
+  {
+    "name": "rabbit_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/rabbit_axe"
+  },
+  {
+    "name": "raider_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/raider_sword"
+  },
+  {
+    "name": "raw_soulflow",
+    "vanilla": "paper",
+    "texture": "uncategorized/raw_soulflow"
+  },
+  {
+    "name": "ray_gun",
+    "vanilla": "stick",
+    "texture": "uncategorized/ray_gun"
+  },
+  {
+    "name": "redstone_tipped_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/redstone_tipped_arrow"
+  },
+  {
+    "name": "refined_diamond",
+    "vanilla": "paper",
+    "texture": "uncategorized/refined_diamond"
+  },
+  {
+    "name": "refined_mithril",
+    "vanilla": "paper",
+    "texture": "uncategorized/refined_mithril"
+  },
+  {
+    "name": "refined_mithril_pickaxe",
+    "vanilla": "diamond_pickaxe",
+    "texture": "uncategorized/refined_mithril_pickaxe"
+  },
+  {
+    "name": "refined_titanium",
+    "vanilla": "paper",
+    "texture": "uncategorized/refined_titanium"
+  },
+  {
+    "name": "reinforced_iron_arrow",
+    "vanilla": "arrow",
+    "texture": "uncategorized/reinforced_iron_arrow"
+  },
+  {
+    "name": "rekindled_ember_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/rekindled_ember_fragment"
+  },
+  {
+    "name": "robotron_reflector",
+    "vanilla": "paper",
+    "texture": "uncategorized/robotron_reflector"
+  },
+  {
+    "name": "rogue_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/rogue_sword"
+  },
+  {
+    "name": "rookie_axe",
+    "vanilla": "stone_axe",
+    "texture": "uncategorized/rookie_axe"
+  },
+  {
+    "name": "rookie_hoe",
+    "vanilla": "iron_hoe",
+    "texture": "uncategorized/rookie_hoe"
+  },
+  {
+    "name": "rookie_pickaxe",
+    "vanilla": "stone_pickaxe",
+    "texture": "uncategorized/rookie_pickaxe"
+  },
+  {
+    "name": "ruby_crystal",
+    "vanilla": "paper",
+    "texture": "uncategorized/ruby_crystal"
+  },
+  {
+    "name": "ruby_drill_tx_15_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/ruby_drill_tx_15_handle"
+  },
+  {
+    "name": "ruby_drill_tx_15_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/ruby_drill_tx_15_head"
+  },
+  {
+    "name": "ruby_drill_tx_15_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/ruby_drill_tx_15_head_animated"
+  },
+  {
+    "name": "ruby_polished_drill_engine",
+    "vanilla": "paper",
+    "texture": "uncategorized/ruby_polished_drill_engine"
+  },
+  {
+    "name": "runaans_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/runaans_bow"
+  },
+  {
+    "name": "runaans_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/runaans_bow_pulling_0"
+  },
+  {
+    "name": "runaans_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/runaans_bow_pulling_1"
+  },
+  {
+    "name": "runaans_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/runaans_bow_pulling_2"
+  },
+  {
+    "name": "rusty_titanium_pickaxe",
+    "vanilla": "wooden_pickaxe",
+    "texture": "uncategorized/rusty_titanium_pickaxe"
+  },
+  {
+    "name": "sapphire_crystal",
+    "vanilla": "paper",
+    "texture": "uncategorized/sapphire_crystal"
+  },
+  {
+    "name": "sapphire_polished_drill_engine",
+    "vanilla": "paper",
+    "texture": "uncategorized/sapphire_polished_drill_engine"
+  },
+  {
+    "name": "savanna_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/savanna_bow"
+  },
+  {
+    "name": "savanna_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/savanna_bow_pulling_0"
+  },
+  {
+    "name": "savanna_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/savanna_bow_pulling_1"
+  },
+  {
+    "name": "savanna_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/savanna_bow_pulling_2"
+  },
+  {
+    "name": "sculptors_axe",
+    "vanilla": "stone_axe",
+    "texture": "uncategorized/sculptors_axe"
+  },
+  {
+    "name": "scylla",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/scylla"
+  },
+  {
+    "name": "scylla",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/scylla_in_hand"
+  },
+  {
+    "name": "shadow_fury",
+    "vanilla": "diamond_sword",
+    "texture": "uncategorized/shadow_fury"
+  },
+  {
+    "name": "shadow_fury_fragged",
+    "vanilla": "diamond_sword",
+    "texture": "uncategorized/shadow_fury_fragged"
+  },
+  {
+    "name": "sheep_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/sheep_axe"
+  },
+  {
+    "name": "silent_death",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/silent_death"
+  },
+  {
+    "name": "silk_edge_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/silk_edge_sword"
+  },
+  {
+    "name": "silver_fang",
+    "vanilla": "ghast_tear",
+    "texture": "uncategorized/silver_fang"
+  },
+  {
+    "name": "slime_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/slime_bow"
+  },
+  {
+    "name": "slime_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/slime_bow_pulling_0"
+  },
+  {
+    "name": "slime_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/slime_bow_pulling_1"
+  },
+  {
+    "name": "slime_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/slime_bow_pulling_2"
+  },
+  {
+    "name": "sludge_juice",
+    "vanilla": "paper",
+    "texture": "uncategorized/sludge_juice"
+  },
+  {
+    "name": "sniper_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/sniper_bow"
+  },
+  {
+    "name": "sniper_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/sniper_bow_pulling_0"
+  },
+  {
+    "name": "sniper_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/sniper_bow_pulling_1"
+  },
+  {
+    "name": "sniper_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/sniper_bow_pulling_2"
+  },
+  {
+    "name": "snow_shovel",
+    "vanilla": "iron_shovel",
+    "texture": "uncategorized/snow_shovel"
+  },
+  {
+    "name": "sorrow",
+    "vanilla": "ghast_tear",
+    "texture": "uncategorized/sorrow"
+  },
+  {
+    "name": "soulsteeler_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/soulsteeler_bow"
+  },
+  {
+    "name": "soulsteeler_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/soulsteeler_bow_pulling_0"
+  },
+  {
+    "name": "soulsteeler_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/soulsteeler_bow_pulling_1"
+  },
+  {
+    "name": "soulsteeler_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/soulsteeler_bow_pulling_2"
+  },
+  {
+    "name": "souls_rebound",
+    "vanilla": "bow",
+    "texture": "uncategorized/souls_rebound"
+  },
+  {
+    "name": "souls_rebound_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/souls_rebound_pulling_0"
+  },
+  {
+    "name": "souls_rebound_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/souls_rebound_pulling_1"
+  },
+  {
+    "name": "souls_rebound_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/souls_rebound_pulling_2"
+  },
+  {
+    "name": "soul_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/soul_fragment"
+  },
+  {
+    "name": "soul_string",
+    "vanilla": "string",
+    "texture": "uncategorized/soul_string"
+  },
+  {
+    "name": "soul_whip",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/soul_whip"
+  },
+  {
+    "name": "spectre_dust",
+    "vanilla": "paper",
+    "texture": "uncategorized/spectre_dust"
+  },
+  {
+    "name": "spelling_stick",
+    "vanilla": "stick",
+    "texture": "uncategorized/spelling_stick"
+  },
+  {
+    "name": "spell_powder",
+    "vanilla": "glowstone_dust",
+    "texture": "uncategorized/spell_powder"
+  },
+  {
+    "name": "spider_queens_stinger",
+    "vanilla": "bow",
+    "texture": "uncategorized/spider_queens_stinger"
+  },
+  {
+    "name": "spider_queens_stinger_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/spider_queens_stinger_pulling_0"
+  },
+  {
+    "name": "spider_queens_stinger_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/spider_queens_stinger_pulling_1"
+  },
+  {
+    "name": "spider_queens_stinger_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/spider_queens_stinger_pulling_2"
+  },
+  {
+    "name": "spider_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/spider_sword"
+  },
+  {
+    "name": "spirit_bone",
+    "vanilla": "bone",
+    "texture": "uncategorized/spirit_bone"
+  },
+  {
+    "name": "spirit_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/spirit_sword"
+  },
+  {
+    "name": "spirit_wing",
+    "vanilla": "paper",
+    "texture": "uncategorized/spirit_wing"
+  },
+  {
+    "name": "spore_harvester",
+    "vanilla": "iron_hoe",
+    "texture": "uncategorized/spore_harvester"
+  },
+  {
+    "name": "squeaky_mousemat",
+    "vanilla": "paper",
+    "texture": "uncategorized/squeaky_mousemat"
+  },
+  {
+    "name": "squire_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/squire_sword"
+  },
+  {
+    "name": "staff_of_the_rising_sun",
+    "vanilla": "stick",
+    "texture": "uncategorized/staff_of_the_rising_sun"
+  },
+  {
+    "name": "staff_of_the_rising_sun",
+    "vanilla": "stick",
+    "texture": "uncategorized/staff_of_the_rising_sun_in_hand"
+  },
+  {
+    "name": "staff_of_the_rising_sun_2",
+    "vanilla": "stick",
+    "texture": "uncategorized/staff_of_the_rising_sun_2"
+  },
+  {
+    "name": "staff_of_the_rising_sun_2",
+    "vanilla": "stick",
+    "texture": "uncategorized/staff_of_the_rising_sun_2_in_hand"
+  },
+  {
+    "name": "staff_of_the_volcano",
+    "vanilla": "stick",
+    "texture": "uncategorized/staff_of_the_volcano"
+  },
+  {
+    "name": "staff_of_the_volcano",
+    "vanilla": "stick",
+    "texture": "uncategorized/staff_of_the_volcano_in_hand"
+  },
+  {
+    "name": "starfall",
+    "vanilla": "paper",
+    "texture": "uncategorized/starfall"
+  },
+  {
+    "name": "starlight_wand",
+    "vanilla": "stick",
+    "texture": "uncategorized/starlight_wand"
+  },
+  {
+    "name": "stonk",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/stonk"
+  },
+  {
+    "name": "strong_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/strong_dragon_fragment"
+  },
+  {
+    "name": "sulphur",
+    "vanilla": "paper",
+    "texture": "uncategorized/sulphur"
+  },
+  {
+    "name": "sulphur_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/sulphur_bow"
+  },
+  {
+    "name": "sulphur_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/sulphur_bow_pulling_0"
+  },
+  {
+    "name": "sulphur_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/sulphur_bow_pulling_1"
+  },
+  {
+    "name": "sulphur_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/sulphur_bow_pulling_2"
+  },
+  {
+    "name": "summoning_eye",
+    "vanilla": "paper",
+    "texture": "uncategorized/summoning_eye"
+  },
+  {
+    "name": "superboom_tnt",
+    "vanilla": "paper",
+    "texture": "uncategorized/superboom_tnt"
+  },
+  {
+    "name": "superior_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/superior_dragon_fragment"
+  },
+  {
+    "name": "superlite_motor",
+    "vanilla": "paper",
+    "texture": "uncategorized/superlite_motor"
+  },
+  {
+    "name": "super_cleaver",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/super_cleaver"
+  },
+  {
+    "name": "super_cleaver",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/super_cleaver_in_hand"
+  },
+  {
+    "name": "super_undead_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/super_undead_bow"
+  },
+  {
+    "name": "super_undead_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/super_undead_bow_pulling_0"
+  },
+  {
+    "name": "super_undead_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/super_undead_bow_pulling_1"
+  },
+  {
+    "name": "super_undead_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/super_undead_bow_pulling_2"
+  },
+  {
+    "name": "sweet_axe",
+    "vanilla": "iron_axe",
+    "texture": "uncategorized/sweet_axe"
+  },
+  {
+    "name": "sword_of_bad_health",
+    "vanilla": "wooden_sword",
+    "texture": "uncategorized/sword_of_bad_health"
+  },
+  {
+    "name": "synthetic_heart",
+    "vanilla": "paper",
+    "texture": "uncategorized/synthetic_heart"
+  },
+  {
+    "name": "tacticians_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/tacticians_sword"
+  },
+  {
+    "name": "tasty_cheese",
+    "vanilla": "paper",
+    "texture": "uncategorized/tasty_cheese"
+  },
+  {
+    "name": "tasty_mithril",
+    "vanilla": "paper",
+    "texture": "uncategorized/tasty_mithril"
+  },
+  {
+    "name": "tentacle_meat",
+    "vanilla": "paper",
+    "texture": "uncategorized/tentacle_meat"
+  },
+  {
+    "name": "tessalated_ender_pearl",
+    "vanilla": "ender_pearl",
+    "texture": "uncategorized/tessalated_ender_pearl"
+  },
+  {
+    "name": "thornleaf_scythe",
+    "vanilla": "iron_hoe",
+    "texture": "uncategorized/thornleaf_scythe"
+  },
+  {
+    "name": "thunder_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/thunder_fragment"
+  },
+  {
+    "name": "titanium",
+    "vanilla": "paper",
+    "texture": "uncategorized/titanium"
+  },
+  {
+    "name": "titanium_drill_dr_x355_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x355_handle"
+  },
+  {
+    "name": "titanium_drill_dr_x355_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x355_head"
+  },
+  {
+    "name": "titanium_drill_dr_x355_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x355_head_animated"
+  },
+  {
+    "name": "titanium_drill_dr_x455_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x455_handle"
+  },
+  {
+    "name": "titanium_drill_dr_x455_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x455_head"
+  },
+  {
+    "name": "titanium_drill_dr_x455_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x455_head_animated"
+  },
+  {
+    "name": "titanium_drill_dr_x555_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x555_handle"
+  },
+  {
+    "name": "titanium_drill_dr_x555_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x555_head"
+  },
+  {
+    "name": "titanium_drill_dr_x555_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x555_head_animated"
+  },
+  {
+    "name": "titanium_drill_dr_x655_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x655_handle"
+  },
+  {
+    "name": "titanium_drill_dr_x655_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x655_head"
+  },
+  {
+    "name": "titanium_drill_dr_x655_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_drill_dr_x655_head_animated"
+  },
+  {
+    "name": "titanium_infused_fuel_tank",
+    "vanilla": "paper",
+    "texture": "uncategorized/titanium_infused_fuel_tank"
+  },
+  {
+    "name": "titanium_pickaxe",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/titanium_pickaxe"
+  },
+  {
+    "name": "titanium_plated_drill_engine",
+    "vanilla": "paper",
+    "texture": "uncategorized/titanium_plated_drill_engine"
+  },
+  {
+    "name": "tool_xp_capsule",
+    "vanilla": "paper",
+    "texture": "uncategorized/tool_xp_capsule"
+  },
+  {
+    "name": "topaz_crystal",
+    "vanilla": "paper",
+    "texture": "uncategorized/topaz_crystal"
+  },
+  {
+    "name": "topaz_drill_kgr_12_handle",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/topaz_drill_kgr_12_handle"
+  },
+  {
+    "name": "topaz_drill_kgr_12_head",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/topaz_drill_kgr_12_head"
+  },
+  {
+    "name": "topaz_drill_kgr_12_head_animated",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/topaz_drill_kgr_12_head_animated"
+  },
+  {
+    "name": "trap",
+    "vanilla": "paper",
+    "texture": "uncategorized/trap"
+  },
+  {
+    "name": "treasurite",
+    "vanilla": "paper",
+    "texture": "uncategorized/treasurite"
+  },
+  {
+    "name": "tribal_spear",
+    "vanilla": "copper_spear",
+    "texture": "uncategorized/tribal_spear"
+  },
+  {
+    "name": "tribal_spear",
+    "vanilla": "copper_spear",
+    "texture": "uncategorized/tribal_spear_in_hand"
+  },
+  {
+    "name": "undead_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/undead_bow"
+  },
+  {
+    "name": "undead_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/undead_bow_pulling_0"
+  },
+  {
+    "name": "undead_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/undead_bow_pulling_1"
+  },
+  {
+    "name": "undead_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/undead_bow_pulling_2"
+  },
+  {
+    "name": "undead_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/undead_sword"
+  },
+  {
+    "name": "unstable_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/unstable_dragon_fragment"
+  },
+  {
+    "name": "valkyrie",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/valkyrie"
+  },
+  {
+    "name": "valkyrie",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/valkyrie_in_hand"
+  },
+  {
+    "name": "venoms_touch",
+    "vanilla": "bow",
+    "texture": "uncategorized/venoms_touch"
+  },
+  {
+    "name": "venoms_touch_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/venoms_touch_pulling_0"
+  },
+  {
+    "name": "venoms_touch_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/venoms_touch_pulling_1"
+  },
+  {
+    "name": "venoms_touch_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/venoms_touch_pulling_2"
+  },
+  {
+    "name": "volta",
+    "vanilla": "paper",
+    "texture": "uncategorized/volta"
+  },
+  {
+    "name": "wand_of_strength",
+    "vanilla": "stick",
+    "texture": "uncategorized/wand_of_strength"
+  },
+  {
+    "name": "weak_wolf_catalyst",
+    "vanilla": "nether_star",
+    "texture": "uncategorized/weak_wolf_catalyst"
+  },
+  {
+    "name": "werewolf_skin",
+    "vanilla": "paper",
+    "texture": "uncategorized/werewolf_skin"
+  },
+  {
+    "name": "wise_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/wise_dragon_fragment"
+  },
+  {
+    "name": "wishing_compass",
+    "vanilla": "paper",
+    "texture": "uncategorized/wishing_compass"
+  },
+  {
+    "name": "wither_bow",
+    "vanilla": "bow",
+    "texture": "uncategorized/wither_bow"
+  },
+  {
+    "name": "wither_bow_pulling_0",
+    "vanilla": "bow_pulling_0",
+    "texture": "uncategorized/wither_bow_pulling_0"
+  },
+  {
+    "name": "wither_bow_pulling_1",
+    "vanilla": "bow_pulling_1",
+    "texture": "uncategorized/wither_bow_pulling_1"
+  },
+  {
+    "name": "wither_bow_pulling_2",
+    "vanilla": "bow_pulling_2",
+    "texture": "uncategorized/wither_bow_pulling_2"
+  },
+  {
+    "name": "wither_catalyst",
+    "vanilla": "nether_star",
+    "texture": "uncategorized/wither_catalyst"
+  },
+  {
+    "name": "wither_cloak_sword",
+    "vanilla": "stone_sword",
+    "texture": "uncategorized/wither_cloak_sword"
+  },
+  {
+    "name": "wither_soul",
+    "vanilla": "paper",
+    "texture": "uncategorized/wither_soul"
+  },
+  {
+    "name": "wizard_wand",
+    "vanilla": "stick",
+    "texture": "uncategorized/wizard_wand"
+  },
+  {
+    "name": "worm_bait",
+    "vanilla": "paper",
+    "texture": "uncategorized/worm_bait"
+  },
+  {
+    "name": "worm_membrane",
+    "vanilla": "rotten_flesh",
+    "texture": "uncategorized/worm_membrane"
+  },
+  {
+    "name": "x",
+    "vanilla": "paper",
+    "texture": "uncategorized/x"
+  },
+  {
+    "name": "y",
+    "vanilla": "paper",
+    "texture": "uncategorized/y"
+  },
+  {
+    "name": "yoggie",
+    "vanilla": "paper",
+    "texture": "uncategorized/yoggie"
+  },
+  {
+    "name": "young_dragon_fragment",
+    "vanilla": "paper",
+    "texture": "uncategorized/young_dragon_fragment"
+  },
+  {
+    "name": "z",
+    "vanilla": "paper",
+    "texture": "uncategorized/z"
+  },
+  {
+    "name": "zombie_commander_whip",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/zombie_commander_whip"
+  },
+  {
+    "name": "zombie_knight_sword",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/zombie_knight_sword"
+  },
+  {
+    "name": "zombie_pickaxe",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/zombie_pickaxe"
+  },
+  {
+    "name": "zombie_solider_cutlass",
+    "vanilla": "iron_sword",
+    "texture": "uncategorized/zombie_solider_cutlass"
+  },
+  {
+    "name": "zombie_sword",
+    "vanilla": "golden_sword",
+    "texture": "uncategorized/zombie_sword"
+  },
+  {
+    "name": "zoom",
+    "vanilla": "iron_pickaxe",
+    "texture": "uncategorized/zoom"
+  }
+]
