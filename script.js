@@ -407,12 +407,13 @@
     if (textureCache[path]) return textureCache[path];
     try {
       const file = zip.files[path];
-      if (!file) return '';
-      const blob = await file.async('blob');
-      const url = URL.createObjectURL(blob);
+      if (!file || file.dir) return '';
+      const base64 = await file.async('base64');
+      const url = 'data:image/png;base64,' + base64;
       textureCache[path] = url;
       return url;
-    } catch {
+    } catch (e) {
+      console.warn('Preview error for', path, e.message);
       return '';
     }
   }
@@ -704,9 +705,9 @@
         }
         toPreload.forEach(function(path) {
           getTextureUrl(
-            path.endsWith('.png') && path.indexOf('/') === -1 ? vanillaTextureZip : sbTextureZip,
+            path.indexOf('/') === -1 ? vanillaTextureZip : sbTextureZip,
             path
-          );
+          ).then(function() {}).catch(function() {});
         });
       }, 500);
     } catch (err) {
