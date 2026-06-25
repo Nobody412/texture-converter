@@ -252,6 +252,21 @@ header h1 {
   text-align: center;
 }
 
+.setting-row.setting-row-checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 0.85rem;
+}
+
+.setting-row.setting-row-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
 .text-input {
   width: 100%;
   background: var(--bg2);
@@ -265,6 +280,12 @@ header h1 {
 .text-input:focus {
   outline: none;
   border-color: var(--accent);
+}
+
+.pack-name-input {
+  font-size: 1rem;
+  padding: 10px 12px;
+  border-width: 2px;
 }
 
 .btn-small {

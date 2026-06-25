@@ -38,6 +38,7 @@
   const minFormat = document.getElementById('min-format');
   const maxFormat = document.getElementById('max-format');
   const packName = document.getElementById('pack-name');
+  const selectedOnly = document.getElementById('selected-only');
   const uploadIconBtn = document.getElementById('upload-icon-btn');
   const packIconInput = document.getElementById('pack-icon-input');
   const iconStatus = document.getElementById('icon-status');
@@ -100,8 +101,9 @@
   }
 
   function updateSummary() {
-    const total = filteredItems.length;
-    const keep = filteredItems.filter(i => keepCustom.has(i.name)).length;
+    const items = selectedOnly.checked ? allItems.filter(i => keepCustom.has(i.name)) : filteredItems;
+    const total = items.length;
+    const keep = items.filter(i => keepCustom.has(i.name)).length;
     const convert = total - keep;
     const uploads = Object.keys(customTextures).length;
     sumTotal.textContent = total;
@@ -496,48 +498,57 @@
     try {
       const zip = new JSZip();
       let processed = 0;
-      const total = allItems.length;
+      let skipped = 0;
+      const itemsToProcess = selectedOnly.checked
+        ? allItems.filter(i => keepCustom.has(i.name))
+        : allItems;
+      const total = itemsToProcess.length;
 
-      for (const item of allItems) {
+      for (const item of itemsToProcess) {
         const name = item.name;
         const vanilla = item.vanilla;
         const textures = item.textures;
 
         for (const texturePath of textures) {
-          const destTexturePath = 'assets/hypixel_skyblock/textures/item/' + texturePath + '.png';
-          const destModelPath = 'assets/hypixel_skyblock/models/item/' + texturePath + '.json';
+          try {
+            const destTexturePath = 'assets/hypixel_skyblock/textures/item/' + texturePath + '.png';
+            const destModelPath = 'assets/hypixel_skyblock/models/item/' + texturePath + '.json';
 
-          if (keepCustom.has(name)) {
-            const sbFile = sbTextureZip.files[texturePath + '.png'];
-            if (sbFile) {
-              const sbBlob = await sbFile.async('blob');
-              zip.file(destTexturePath, sbBlob);
+            if (keepCustom.has(name)) {
+              const sbFile = sbTextureZip.files[texturePath + '.png'];
+              if (sbFile) {
+                const sbBlob = await sbFile.async('blob');
+                zip.file(destTexturePath, sbBlob);
+              }
+              const modelData = modelsMap[texturePath];
+              if (modelData) {
+                zip.file(destModelPath, JSON.stringify(modelData));
+              }
+            } else if (customTextureBlobs[name]) {
+              zip.file(destTexturePath, customTextureBlobs[name]);
+              zip.file(destModelPath, JSON.stringify({
+                parent: 'minecraft:item/' + vanilla,
+                textures: { layer0: 'hypixel_skyblock:item/' + texturePath }
+              }));
+            } else if (packTextureMap[vanilla]) {
+              zip.file(destTexturePath, packTextureMap[vanilla]);
+              zip.file(destModelPath, JSON.stringify({
+                parent: 'minecraft:item/' + vanilla,
+                textures: { layer0: 'hypixel_skyblock:item/' + texturePath }
+              }));
+            } else {
+              const vanFile = vanillaTextureZip.files[vanilla + '.png'];
+              if (vanFile) {
+                const vanillaBlob = await vanFile.async('blob');
+                zip.file(destTexturePath, vanillaBlob);
+              }
+              zip.file(destModelPath, JSON.stringify({
+                parent: 'minecraft:item/' + vanilla
+              }));
             }
-            const modelData = modelsMap[texturePath];
-            if (modelData) {
-              zip.file(destModelPath, JSON.stringify(modelData));
-            }
-          } else if (customTextureBlobs[name]) {
-            zip.file(destTexturePath, customTextureBlobs[name]);
-            zip.file(destModelPath, JSON.stringify({
-              parent: 'minecraft:item/' + vanilla,
-              textures: { layer0: 'hypixel_skyblock:item/' + texturePath }
-            }));
-          } else if (packTextureMap[vanilla]) {
-            zip.file(destTexturePath, packTextureMap[vanilla]);
-            zip.file(destModelPath, JSON.stringify({
-              parent: 'minecraft:item/' + vanilla,
-              textures: { layer0: 'hypixel_skyblock:item/' + texturePath }
-            }));
-          } else {
-            const vanFile = vanillaTextureZip.files[vanilla + '.png'];
-            if (vanFile) {
-              const vanillaBlob = await vanFile.async('blob');
-              zip.file(destTexturePath, vanillaBlob);
-            }
-            zip.file(destModelPath, JSON.stringify({
-              parent: 'minecraft:item/' + vanilla
-            }));
+          } catch (err) {
+            skipped++;
+            console.warn('Skipped ' + texturePath + ': ' + err.message);
           }
         }
 
@@ -573,7 +584,7 @@
       downloadLink.download = displayName;
       downloadArea.hidden = false;
       progressFill.style.width = '100%';
-      progressText.textContent = 'Done! ' + processed + ' items processed.';
+      progressText.textContent = 'Done! ' + processed + ' items processed' + (skipped ? ', ' + skipped + ' skipped' : '') + '.';
     } catch (err) {
       progressText.textContent = 'Error: ' + err.message;
     }
@@ -645,6 +656,8 @@
       loading.textContent = 'Failed to load: ' + err.message;
     }
   }
+
+  selectedOnly.addEventListener('change', updateSummary);
 
   loadAssets();
 })();
