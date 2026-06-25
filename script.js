@@ -358,7 +358,7 @@
     if (textureCache[path]) return textureCache[path];
     try {
       const file = zip.files[path];
-      if (!file) return '';
+      if (!file || file.dir) return '';
       const blob = await file.async('blob');
       const url = URL.createObjectURL(blob);
       textureCache[path] = url;
