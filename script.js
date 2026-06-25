@@ -409,11 +409,13 @@
     for (var i = 0; i < keys.length; i++) {
       if (keys[i] === path) return zip.files[keys[i]];
     }
-    var found = null;
-    zip.forEach(function(relPath, entry) {
-      if (relPath === path) found = entry;
-    });
-    return found;
+    var altPath = path.replace(/\//g, '\\');
+    if (altPath !== path) {
+      for (var i = 0; i < keys.length; i++) {
+        if (keys[i] === altPath) return zip.files[keys[i]];
+      }
+    }
+    return null;
   }
 
   async function getTextureUrl(zip, path, zipName) {
@@ -422,10 +424,15 @@
       const file = getZipFile(zip, path);
       if (!file) {
         var keys = Object.keys(zip.files);
-        var ciMatch = keys.find(function(k) { return k.toLowerCase() === path.toLowerCase(); });
-        var startsWith = keys.filter(function(k) { return k.indexOf(path.replace('.png','')) >= 0; });
+        var altPath = path.replace(/\//g, '\\');
+        var ciMatch = keys.find(function(k) {
+          return k.toLowerCase() === path.toLowerCase() || k.toLowerCase() === altPath.toLowerCase();
+        });
+        var startsWith = keys.filter(function(k) {
+          return k.indexOf(path.replace('.png','')) >= 0 || k.indexOf(altPath.replace('.png','')) >= 0;
+        });
         console.warn('Preview: file not found in ' + zipName + ': ' + path);
-        console.warn('  keys count:', keys.length, 'ciMatch:', ciMatch, 'startsWith:', startsWith.slice(0,3).join(','));
+        console.warn('  ciMatch:', ciMatch, 'startsWith:', startsWith.slice(0,3).join(','));
         return '';
       }
       if (file.dir) {
@@ -606,7 +613,7 @@
                 const sbBlob = await sbFile.async('blob');
                 zip.file(destTexturePath, sbBlob);
               }
-              const modelData = modelsMap[texturePath];
+              const modelData = modelsMap[texturePath] || modelsMap[texturePath.replace(/\//g, '\\')];
               if (modelData) {
                 zip.file(destModelPath, JSON.stringify(modelData));
               }
