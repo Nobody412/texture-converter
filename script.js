@@ -14,9 +14,10 @@
   let modelsMap = {};
   let textureCache = {};
 
-  const SB_TEXTURES_ZIP = 'textures/sb_textures.zip';
-  const VANILLA_TEXTURES_ZIP = 'textures/vanilla_textures.zip';
-  const SB_MODELS_JSON = 'models/sb_models.json';
+  const CACHE_BUST = Date.now();
+  const SB_TEXTURES_ZIP = 'textures/sb_textures.zip?cb=' + CACHE_BUST;
+  const VANILLA_TEXTURES_ZIP = 'textures/vanilla_textures.zip?cb=' + CACHE_BUST;
+  const SB_MODELS_JSON = 'models/sb_models.json?cb=' + CACHE_BUST;
 
   const itemList = document.getElementById('item-list');
   const loading = document.getElementById('loading');
@@ -403,10 +404,18 @@
     reader.readAsArrayBuffer(file);
   }
 
+  function getZipFile(zip, path) {
+    var found = null;
+    zip.forEach(function(relPath, entry) {
+      if (relPath === path) found = entry;
+    });
+    return found;
+  }
+
   async function getTextureUrl(zip, path, zipName) {
     if (textureCache[path]) return textureCache[path];
     try {
-      const file = zip.files[path];
+      const file = getZipFile(zip, path);
       if (!file) {
         console.warn('Preview: file not found in ' + zipName + ': ' + path);
         return '';
@@ -515,21 +524,25 @@
       packTextureMap = {};
 
       const itemFiles = Object.keys(zip.files).filter(k =>
-        k.startsWith('assets/minecraft/textures/item/') && k.endsWith('.png') && !zip.files[k].dir
+        k.startsWith('assets/minecraft/textures/item/') && k.endsWith('.png')
       );
       const blockFiles = Object.keys(zip.files).filter(k =>
-        k.startsWith('assets/minecraft/textures/block/') && k.endsWith('.png') && !zip.files[k].dir
+        k.startsWith('assets/minecraft/textures/block/') && k.endsWith('.png')
       );
 
       for (const name of itemFiles) {
         const vanilla = name.replace('assets/minecraft/textures/item/', '').replace('.png', '');
-        const blob = await zip.files[name].async('blob');
+        const bl = getZipFile(zip, name);
+        if (!bl || bl.dir) continue;
+        const blob = await bl.async('blob');
         packTextureMap[vanilla] = blob;
       }
       for (const name of blockFiles) {
         const vanilla = name.replace('assets/minecraft/textures/block/', '').replace('.png', '');
         if (!packTextureMap[vanilla]) {
-          const blob = await zip.files[name].async('blob');
+          const bl = getZipFile(zip, name);
+          if (!bl || bl.dir) continue;
+          const blob = await bl.async('blob');
           packTextureMap[vanilla] = blob;
         }
       }
@@ -580,7 +593,7 @@
             const destModelPath = 'assets/hypixel_skyblock/models/item/' + texturePath + '.json';
 
             if (keepCustom.has(name)) {
-              const sbFile = sbTextureZip.files[texturePath + '.png'];
+              const sbFile = getZipFile(sbTextureZip, texturePath + '.png');
               if (sbFile && !sbFile.dir) {
                 const sbBlob = await sbFile.async('blob');
                 zip.file(destTexturePath, sbBlob);
@@ -602,7 +615,7 @@
                 textures: { layer0: 'hypixel_skyblock:item/' + texturePath }
               }));
             } else {
-              const vanFile = vanillaTextureZip.files[vanilla + '.png'];
+              const vanFile = getZipFile(vanillaTextureZip, vanilla + '.png');
               if (vanFile && !vanFile.dir) {
                 const vanillaBlob = await vanFile.async('blob');
                 zip.file(destTexturePath, vanillaBlob);
@@ -689,6 +702,8 @@
       sbTextureZip = await JSZip.loadAsync(sbZipData);
       vanillaTextureZip = await JSZip.loadAsync(vanZipData);
       modelsMap = modelsData;
+      console.log('sbTextureZip loaded, files count:', Object.keys(sbTextureZip.files).length);
+      console.log('vanillaTextureZip loaded, files count:', Object.keys(vanillaTextureZip.files).length);
 
       const grouped = {};
       itemsResp.forEach(item => {
