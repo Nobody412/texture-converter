@@ -7,9 +7,15 @@
   let customTextureBlobs = {};
   let packTextureMap = {};
   let filteredItems = [];
-  const VANILLA_TEXTURES_PATH = 'textures/vanilla/';
-  const SB_TEXTURES_PATH = 'textures/sb/';
-  const SB_MODELS_PATH = 'models/sb/';
+
+  let sbTextureZip = null;
+  let vanillaTextureZip = null;
+  let modelsMap = {};
+  let textureCache = {};
+
+  const SB_TEXTURES_ZIP = 'textures/sb_textures.zip';
+  const VANILLA_TEXTURES_ZIP = 'textures/vanilla_textures.zip';
+  const SB_MODELS_JSON = 'models/sb_models.json';
 
   const itemList = document.getElementById('item-list');
   const loading = document.getElementById('loading');
@@ -346,7 +352,26 @@
     reader.readAsArrayBuffer(file);
   }
 
-  function showPreview(event, item) {
+  async function getTextureUrl(zip, path) {
+    if (textureCache[path]) return textureCache[path];
+    try {
+      const file = zip.files[path];
+      if (!file) return '';
+      const blob = await file.async('blob');
+      const url = URL.createObjectURL(blob);
+      textureCache[path] = url;
+      return url;
+    } catch {
+      return '';
+    }
+  }
+
+  function clearTextureCache() {
+    Object.values(textureCache).forEach(u => URL.revokeObjectURL(u));
+    textureCache = {};
+  }
+
+  async function showPreview(event, item) {
     const sbTexture = item.textures[0];
     const sbImg = document.getElementById('preview-sb');
     const targetImg = document.getElementById('preview-target');
@@ -354,15 +379,16 @@
     const previewVanilla = document.getElementById('preview-vanilla');
     const targetLabel = document.getElementById('preview-target-label');
 
-    sbImg.src = SB_TEXTURES_PATH + sbTexture + '.png';
     previewName.textContent = item.name.replace(/_/g, ' ');
     previewVanilla.textContent = item.vanilla.replace(/_/g, ' ');
+
+    sbImg.src = await getTextureUrl(sbTextureZip, sbTexture + '.png');
 
     if (customTextures[item.name]) {
       targetImg.src = customTextures[item.name];
       targetLabel.textContent = 'Custom Texture';
     } else {
-      targetImg.src = VANILLA_TEXTURES_PATH + item.vanilla + '.png';
+      targetImg.src = await getTextureUrl(vanillaTextureZip, item.vanilla + '.png');
       targetLabel.textContent = 'Vanilla Texture';
     }
 
@@ -470,7 +496,6 @@
     try {
       const zip = new JSZip();
       let processed = 0;
-      let skipped = 0;
       const total = allItems.length;
 
       for (const item of allItems) {
@@ -483,15 +508,14 @@
           const destModelPath = 'assets/hypixel_skyblock/models/item/' + texturePath + '.json';
 
           if (keepCustom.has(name)) {
-            const sbBlob = await fetch(SB_TEXTURES_PATH + texturePath + '.png').then(r => {
-              if (!r.ok) throw new Error('Missing SB texture: ' + texturePath);
-              return r.blob();
-            });
-            zip.file(destTexturePath, sbBlob);
-            const modelResp = await fetch(SB_MODELS_PATH + texturePath + '.json');
-            if (modelResp.ok) {
-              const modelText = await modelResp.text();
-              zip.file(destModelPath, modelText);
+            const sbFile = sbTextureZip.files[texturePath + '.png'];
+            if (sbFile) {
+              const sbBlob = await sbFile.async('blob');
+              zip.file(destTexturePath, sbBlob);
+            }
+            const modelData = modelsMap[texturePath];
+            if (modelData) {
+              zip.file(destModelPath, JSON.stringify(modelData));
             }
           } else if (customTextureBlobs[name]) {
             zip.file(destTexturePath, customTextureBlobs[name]);
@@ -506,11 +530,11 @@
               textures: { layer0: 'hypixel_skyblock:item/' + texturePath }
             }));
           } else {
-            const vanillaBlob = await fetch(VANILLA_TEXTURES_PATH + vanilla + '.png').then(r => {
-              if (!r.ok) throw new Error('Missing vanilla texture: ' + vanilla);
-              return r.blob();
-            });
-            zip.file(destTexturePath, vanillaBlob);
+            const vanFile = vanillaTextureZip.files[vanilla + '.png'];
+            if (vanFile) {
+              const vanillaBlob = await vanFile.async('blob');
+              zip.file(destTexturePath, vanillaBlob);
+            }
             zip.file(destModelPath, JSON.stringify({
               parent: 'minecraft:item/' + vanilla
             }));
@@ -571,14 +595,23 @@
     filterItems();
   });
 
-  // Load items
-  async function loadItems() {
+  // Load all assets
+  async function loadAssets() {
     try {
-      const resp = await fetch('data/item_database.json');
-      const rawItems = await resp.json();
+      loading.textContent = 'Loading assets...';
+      const [sbZipData, vanZipData, modelsData, itemsResp] = await Promise.all([
+        fetch(SB_TEXTURES_ZIP).then(r => r.arrayBuffer()),
+        fetch(VANILLA_TEXTURES_ZIP).then(r => r.arrayBuffer()),
+        fetch(SB_MODELS_JSON).then(r => r.json()),
+        fetch('data/item_database.json').then(r => r.json())
+      ]);
+
+      sbTextureZip = await JSZip.loadAsync(sbZipData);
+      vanillaTextureZip = await JSZip.loadAsync(vanZipData);
+      modelsMap = modelsData;
 
       const grouped = {};
-      rawItems.forEach(item => {
+      itemsResp.forEach(item => {
         if (!grouped[item.name]) {
           grouped[item.name] = { name: item.name, vanilla: item.vanilla, textures: [] };
         }
@@ -591,10 +624,27 @@
       populateFilters();
       filterItems();
       loading.style.display = 'none';
+
+      // Pre-populate texture cache in background
+      setTimeout(function() {
+        const toPreload = [];
+        for (const item of allItems) {
+          for (const t of item.textures) {
+            if (!textureCache[t + '.png']) toPreload.push(t + '.png');
+          }
+          if (!textureCache[item.vanilla + '.png']) toPreload.push(item.vanilla + '.png');
+        }
+        toPreload.forEach(function(path) {
+          getTextureUrl(
+            path.endsWith('.png') && path.indexOf('/') === -1 ? vanillaTextureZip : sbTextureZip,
+            path
+          );
+        });
+      }, 500);
     } catch (err) {
-      loading.textContent = 'Failed to load items: ' + err.message;
+      loading.textContent = 'Failed to load: ' + err.message;
     }
   }
 
-  loadItems();
+  loadAssets();
 })();
