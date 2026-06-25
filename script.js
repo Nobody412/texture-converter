@@ -35,9 +35,6 @@
   const uploadPackBtn = document.getElementById('upload-pack-btn');
   const packFileInput = document.getElementById('pack-file-input');
   const packStatus = document.getElementById('pack-status');
-  const packFormat = document.getElementById('pack-format');
-  const minFormat = document.getElementById('min-format');
-  const maxFormat = document.getElementById('max-format');
   const packName = document.getElementById('pack-name');
   const selectedOnly = document.getElementById('selected-only');
   const uploadIconBtn = document.getElementById('upload-icon-btn');
@@ -104,6 +101,10 @@
     }
   }
 
+  function getSelectedCount() {
+    return allItems.filter(i => keepCustom.has(i.name)).length;
+  }
+
   function updateSummary() {
     const items = selectedOnly.checked ? allItems.filter(i => keepCustom.has(i.name)) : filteredItems;
     const total = items.length;
@@ -114,6 +115,9 @@
     sumKeep.textContent = keep;
     sumConvert.textContent = convert;
     sumUploads.textContent = uploads;
+    generateBtn.textContent = selectedOnly.checked
+      ? 'Generate Pack (' + getSelectedCount() + ' selected)'
+      : 'Generate Pack';
     updateStats();
   }
 
@@ -403,7 +407,7 @@
     if (textureCache[path]) return textureCache[path];
     try {
       const file = zip.files[path];
-      if (!file || file.dir) return '';
+      if (!file) return '';
       const blob = await file.async('blob');
       const url = URL.createObjectURL(blob);
       textureCache[path] = url;
@@ -616,9 +620,7 @@
       const description = packName.value.trim() || 'Skyblock Texture Pack (Generated)';
       zip.file('pack.mcmeta', JSON.stringify({
         pack: {
-          pack_format: parseInt(packFormat.value) || 87,
-          min_format: parseInt(minFormat.value) || 69,
-          max_format: parseInt(maxFormat.value) || 999,
+          pack_format: 87,
           description: description
         }
       }));
