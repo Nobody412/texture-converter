@@ -403,17 +403,28 @@
     reader.readAsArrayBuffer(file);
   }
 
-  async function getTextureUrl(zip, path) {
+  async function getTextureUrl(zip, path, zipName) {
     if (textureCache[path]) return textureCache[path];
     try {
       const file = zip.files[path];
-      if (!file || file.dir) return '';
+      if (!file) {
+        console.warn('Preview: file not found in ' + zipName + ': ' + path);
+        return '';
+      }
+      if (file.dir) {
+        console.warn('Preview: file is a directory in ' + zipName + ': ' + path);
+        return '';
+      }
       const base64 = await file.async('base64');
+      if (!base64 || base64.length < 10) {
+        console.warn('Preview: empty base64 for ' + zipName + ': ' + path);
+        return '';
+      }
       const url = 'data:image/png;base64,' + base64;
       textureCache[path] = url;
       return url;
     } catch (e) {
-      console.warn('Preview error for', path, e.message);
+      console.warn('Preview error for', zipName, path, e.message);
       return '';
     }
   }
@@ -435,13 +446,13 @@
     previewName.textContent = item.name.replace(/_/g, ' ');
     previewVanilla.textContent = effectiveVanilla.replace(/_/g, ' ');
 
-    sbImg.src = await getTextureUrl(sbTextureZip, sbTexture + '.png');
+    sbImg.src = await getTextureUrl(sbTextureZip, sbTexture + '.png', 'sb');
 
     if (customTextures[item.name]) {
       targetImg.src = customTextures[item.name];
       targetLabel.textContent = 'Custom Texture';
     } else {
-      targetImg.src = await getTextureUrl(vanillaTextureZip, effectiveVanilla + '.png');
+      targetImg.src = await getTextureUrl(vanillaTextureZip, effectiveVanilla + '.png', 'vanilla');
       targetLabel.textContent = 'Vanilla Texture';
     }
 
@@ -704,10 +715,12 @@
           if (!textureCache[item.vanilla + '.png']) toPreload.push(item.vanilla + '.png');
         }
         toPreload.forEach(function(path) {
+          const isVanilla = path.indexOf('/') === -1;
           getTextureUrl(
-            path.indexOf('/') === -1 ? vanillaTextureZip : sbTextureZip,
-            path
-          ).then(function() {}).catch(function() {});
+            isVanilla ? vanillaTextureZip : sbTextureZip,
+            path,
+            isVanilla ? 'vanilla' : 'sb'
+          );
         });
       }, 500);
     } catch (err) {
