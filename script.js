@@ -516,7 +516,7 @@
 
             if (keepCustom.has(name)) {
               const sbFile = sbTextureZip.files[texturePath + '.png'];
-              if (sbFile) {
+              if (sbFile && !sbFile.dir) {
                 const sbBlob = await sbFile.async('blob');
                 zip.file(destTexturePath, sbBlob);
               }
@@ -538,7 +538,7 @@
               }));
             } else {
               const vanFile = vanillaTextureZip.files[vanilla + '.png'];
-              if (vanFile) {
+              if (vanFile && !vanFile.dir) {
                 const vanillaBlob = await vanFile.async('blob');
                 zip.file(destTexturePath, vanillaBlob);
               }
@@ -548,7 +548,9 @@
             }
           } catch (err) {
             skipped++;
-            console.warn('Skipped ' + texturePath + ': ' + err.message);
+            if (skipped <= 3) {
+              progressText.textContent = 'Skipped ' + texturePath + ': ' + err.message;
+            }
           }
         }
 
