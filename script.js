@@ -7,6 +7,7 @@
   let customTextureBlobs = {};
   let packTextureMap = {};
   let filteredItems = [];
+  let vanillaOverrides = {};
 
   let sbTextureZip = null;
   let vanillaTextureZip = null;
@@ -91,11 +92,14 @@
   function updateStats() {
     const statsBar = document.getElementById('stats-bar');
     if (statsBar && allItems.length) {
-      const vanillaSet = new Set(allItems.map(i => i.vanilla));
+      const effectiveVanilla = allItems.map(i => vanillaOverrides[i.name] || i.vanilla);
+      const vanillaSet = new Set(effectiveVanilla);
+      const overrideCount = Object.keys(vanillaOverrides).length;
       statsBar.innerHTML = `
         <span>${allItems.length} Items</span>
         <span>${vanillaSet.size} Vanilla Types</span>
         <span>${allItems.filter(i => keepCustom.has(i.name)).length} Kept Custom</span>
+        ${overrideCount ? '<span>' + overrideCount + ' Overrides</span>' : ''}
       `;
     }
   }
@@ -198,9 +202,39 @@
     nameSpan.textContent = item.name.replace(/_/g, ' ');
     nameSpan.title = item.name;
 
+    function getVanillaDisplay(item) {
+      return (vanillaOverrides[item.name] || item.vanilla).replace(/_/g, ' ');
+    }
+
     const vanillaTag = document.createElement('span');
     vanillaTag.className = 'vanilla-tag-sm';
-    vanillaTag.textContent = item.vanilla.replace(/_/g, ' ');
+    vanillaTag.textContent = getVanillaDisplay(item);
+    vanillaTag.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (vanillaTag.querySelector('input')) return;
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.className = 'vanilla-override-input';
+      input.value = vanillaOverrides[item.name] || item.vanilla;
+      input.placeholder = item.vanilla;
+      vanillaTag.textContent = '';
+      vanillaTag.appendChild(input);
+      input.focus();
+      input.select();
+      input.addEventListener('blur', function() {
+        saveVanillaOverride(item, input.value);
+      });
+      input.addEventListener('keydown', function(ev) {
+        if (ev.key === 'Enter') {
+          ev.stopPropagation();
+          input.blur();
+        }
+        if (ev.key === 'Escape') {
+          ev.stopPropagation();
+          saveVanillaOverride(item, '');
+        }
+      });
+    });
 
     const texCount = document.createElement('span');
     texCount.className = 'texture-count';
@@ -320,6 +354,17 @@
     itemList.appendChild(fragment);
   }
 
+  function saveVanillaOverride(item, value) {
+    const trimmed = value.trim().replace(/\.png$/i, '').replace(/ /g, '_');
+    if (trimmed && trimmed !== item.vanilla) {
+      vanillaOverrides[item.name] = trimmed;
+    } else {
+      delete vanillaOverrides[item.name];
+    }
+    renderItems();
+    updateSummary();
+  }
+
   function toggleItem(name, checked) {
     if (checked) {
       keepCustom.add(name);
@@ -381,8 +426,9 @@
     const previewVanilla = document.getElementById('preview-vanilla');
     const targetLabel = document.getElementById('preview-target-label');
 
+    const effectiveVanilla = vanillaOverrides[item.name] || item.vanilla;
     previewName.textContent = item.name.replace(/_/g, ' ');
-    previewVanilla.textContent = item.vanilla.replace(/_/g, ' ');
+    previewVanilla.textContent = effectiveVanilla.replace(/_/g, ' ');
 
     sbImg.src = await getTextureUrl(sbTextureZip, sbTexture + '.png');
 
@@ -390,7 +436,7 @@
       targetImg.src = customTextures[item.name];
       targetLabel.textContent = 'Custom Texture';
     } else {
-      targetImg.src = await getTextureUrl(vanillaTextureZip, item.vanilla + '.png');
+      targetImg.src = await getTextureUrl(vanillaTextureZip, effectiveVanilla + '.png');
       targetLabel.textContent = 'Vanilla Texture';
     }
 
@@ -499,6 +545,9 @@
       const zip = new JSZip();
       let processed = 0;
       let skipped = 0;
+      const errorDiv = document.getElementById('progress-errors');
+      errorDiv.innerHTML = '';
+      errorDiv.hidden = true;
       const itemsToProcess = selectedOnly.checked
         ? allItems.filter(i => keepCustom.has(i.name))
         : allItems;
@@ -506,7 +555,7 @@
 
       for (const item of itemsToProcess) {
         const name = item.name;
-        const vanilla = item.vanilla;
+        const vanilla = vanillaOverrides[item.name] || item.vanilla;
         const textures = item.textures;
 
         for (const texturePath of textures) {
@@ -549,7 +598,11 @@
           } catch (err) {
             skipped++;
             if (skipped <= 3) {
-              progressText.textContent = 'Skipped ' + texturePath + ': ' + err.message;
+              const msg = document.createElement('div');
+              msg.className = 'error-msg';
+              msg.textContent = 'ERROR: Cannot read "' + texturePath + '.png" (' + err.message + ').';
+              errorDiv.appendChild(msg);
+              errorDiv.hidden = false;
             }
           }
         }
@@ -586,7 +639,7 @@
       downloadLink.download = displayName;
       downloadArea.hidden = false;
       progressFill.style.width = '100%';
-      progressText.textContent = 'Done! ' + processed + ' items processed' + (skipped ? ', ' + skipped + ' skipped' : '') + '.';
+      progressText.textContent = 'Done! ' + processed + ' items processed' + (skipped ? ', ' + skipped + ' skipped. See errors below.' : '.') + (selectedOnly.checked ? ' (selected items only)' : '');
     } catch (err) {
       progressText.textContent = 'Error: ' + err.message;
     }
